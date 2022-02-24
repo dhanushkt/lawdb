@@ -11,7 +11,7 @@
 
         <!-- Hero Slider Area -->
         <div class="hero-slider owl-carousel owl-theme">
-            <div class="hero-slider-item item-bg1">
+            <div class="hero-slider-item item-bg1" >
                 <div class="d-table">
                     <div class="d-table-cell">
                         <div class="container">
@@ -20,7 +20,7 @@
                                 <h1>We Provide Legal Help For You</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Free Consulting</a>
+                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
                                     <a href="#" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>
@@ -38,8 +38,8 @@
                                 <h1>Attorneys Fight For Your Justice</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Free Consulting</a>
-                                    <a href="#" class="default-btn-two">Learn Moreg</a>
+                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
+                                    <a href="#" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@
                                 <h1>It’s Our Pride To Fight For Your Dream</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Free Consulting</a>
+                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
                                     <a href="#" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>

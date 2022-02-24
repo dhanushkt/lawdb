@@ -32,7 +32,6 @@
             <div class="container">
                 <div class="section-title">
                     <h2>Sign in to Your Account!</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quas cumque iste veniam id dolorem deserunt ratione error voluptas rem ullam.</p>
                 </div>
  
                 <div class="sign-in-form">
