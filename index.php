@@ -115,7 +115,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="about-image">
-                            <img src="assets/img/about.png" alt="Image">
+                            <img src="assets/img/hero-slider/lawyer.png" alt="Image">
                         </div>
                     </div>
 
@@ -123,8 +123,8 @@
                         <div class="about-text">
                             <div class="section-title">
                                 <span>About Us</span>
-                                <h2>We Are Top Lawyers With<span> 25 Years</span> Of Experience</h2>
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue.</p>
+                                <h2>The Top Lawyer With<span> 25 Years</span> Of Experience</h2>
+                                <p>Focus on making yourself better. Not on thinking that you are better</p>
                             </div>
 
                             <div class="row">
@@ -172,7 +172,7 @@
                             </div>
 
                             <div class="about-btn">
-                                <a href="#" class="default-btn-one">Free Consulting</a>
+                                <a href="signin.php" class="default-btn-one">Find Lawyers</a>
                             </div>
                         </div>
                     </div>
@@ -193,7 +193,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service1.jpg" alt="Image">
+                                <img src="assets/img/civil.png" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-city"></i>
@@ -206,7 +206,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service2.jpg" alt="Image">
+                                <img src="assets/img/family.png" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-users"></i>
@@ -219,7 +219,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service3.jpg" alt="Image">
+                                <img src="assets/img/business.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-user"></i>
@@ -232,7 +232,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service4.jpg" alt="Image">
+                                <img src="assets/img/cyberlaw.png" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-broadcast-tower"></i>
@@ -245,7 +245,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service5.jpg" alt="Image">
+                                <img src="assets/img/investment.png" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-balance-scale"></i>
@@ -258,7 +258,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/services/service6.jpg" alt="Image">
+                                <img src="assets/img/education.png" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-balance-scale-right"></i>
@@ -272,7 +272,7 @@
         </div>
         <!-- End Service Area -->
 
-        <!-- Choose Area -->
+        <!-- Choose Area 
         <div class="choose-area ptb-100">
             <div class="container-fluid">
                 <div class="row">
@@ -427,7 +427,7 @@
         </div>
         <!-- End Case Study Slider Area -->
 
-        <!-- Right Way Area -->
+        <!-- Right Way Area 
         <div class="right-way-area ptb-100">
             <div class="container">
                 <div class="row">
@@ -476,13 +476,14 @@
                     <div class="col-lg-6">
                         <div class="contact-text">
                             <div class="section-title">
+                            <span>Contact Form</span>
                                 <h2>Contact Us Today, Get In Touch With Expert</h2>
                                 <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire hat they cannot foresee the pain and trouble.</p>   
                             </div> 
 
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <div class="contact-card">
+                                        <div class="contact-card">
                                         <span>Phone Number</span>
                                         <h3><a href="tel:+0123456987">+0123 456 987</a></h3>
                                     </div>
@@ -519,7 +520,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                   <!-- <div class="col-lg-6">
                         <div class="section-title">
                             <span>Contact Form</span>
                             <h2>Get A Flexible Schedule</h2>  
@@ -574,7 +575,7 @@
         </div>
         <!-- End Contact Area -->
  
-        <!-- Testimonials Slider Area -->
+        <!-- Testimonials Slider Area 
         <div class="testimonials-area ptb-100">
             <div class="container">
                 <div class="section-title text-center">
@@ -668,10 +669,10 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/attorney/attorney1.jpg" alt="Image">
+                                <img src="assets/img/victor.png" alt="Image">
                             </a>
                             <div class="attorney-card-text">
-                                <h3><a href="#">Thomas Daniyel</a></h3>
+                                <h3><a href="#">Victor Rodriguez</a></h3>
                                 <p>Senior Attorney</p>
                                 <ul>
                                     <li>
@@ -702,10 +703,10 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/attorney/attorney2.jpg" alt="Image">
+                                <img src="assets/img/Zia.png" alt="Image">
                             </a>
                             <div class="attorney-card-text">
-                                <h3><a href="#">Nikolson Gail</a></h3>
+                                <h3><a href="#">Zia Mody</a></h3>
                                 <p>Corporate Lawyer</p>
                                 <ul>
                                     <li>
@@ -736,10 +737,10 @@
                     <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/attorney/attorney3.jpg" alt="Image">
+                                <img src="assets/img/freeman.png" alt="Image">
                             </a>
                             <div class="attorney-card-text">
-                                <h3><a href="#">Thanos Daniyel</a></h3>
+                                <h3><a href="#">Tanya L Freeman</a></h3>
                                 <p>Family Consultant</p>
                                 <ul>
                                     <li>
@@ -771,7 +772,7 @@
         </div>
         <!-- End Attorney Area -->
 
-        <!-- Partner Slider Area -->
+        <!-- Partner Slider Area 
         <div class="partner-area ptb-100">
             <div class="container">
                 <div class="section-title text-center">
@@ -810,7 +811,7 @@
         </div>
         <!-- End Partner Slider Area -->
 
-        <!-- Blog Area -->
+        <!-- Blog Area 
         <div class="blog-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
