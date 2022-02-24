@@ -18,7 +18,7 @@
                         <div class="page-content">
                             <h2>Sign Up</h2>
                             <ul>
-                                <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
+                                <li><a href="index.php">Home <i class="las la-angle-right"></i></a></li>
                                 <li>Sign Up</li>
                             </ul>
                         </div>
@@ -33,14 +33,14 @@
             <div class="container">
                 <div class="section-title">
                     <h2>Create an Account!</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium quas cumque iste veniam id dolorem deserunt ratione error voluptas rem ullam.</p>
+                
                 </div>
  
                 <div class="sign-up-form">
                     <form>
                         <div class="row">
                             <div class="col-lg-6">
-                                <div class="form-group">
+                                <!--<div class="form-group">
                                     <input type="text" class="form-control" id="first_name" placeholder="First name">
                                 </div>
                             </div>
@@ -48,20 +48,20 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="last_name" placeholder="Last name">
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-control" id="username" placeholder="Enter your Username">
+                         Username:<input type="text" class="form-control" id="username" placeholder="Enter your Username">
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Email Address">
+                           Email:<input type="email" class="form-control" id="email" placeholder="Email Address">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          Password:<input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Confirm Password">
+                           Confirm Password:<input type="password" class="form-control" id="password" placeholder="Confirm Password">
                         </div>
 
                         <div class="form-group form-check text-center">
@@ -73,7 +73,7 @@
                             <button type="submit" class="btn default-btn-one">Sign Up</button>
 
                             <p class="account-decs">
-                                Already have an account? <a href="sign-in.html">Sign In</a>
+                                Already have an account? <a href="sign-in.php">Sign In</a>
                             </p>
                         </div>
                     </form>

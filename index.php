@@ -192,12 +192,12 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service1.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-city"></i>
-                                <h3><a href="service-details.html">Civil <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Civil <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -205,12 +205,12 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service2.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-users"></i>
-                                <h3><a href="service-details.html">Family  <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Family  <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -218,12 +218,12 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service3.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-user"></i>
-                                <h3><a href="service-details.html">Business <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Business <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -231,12 +231,12 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service4.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-broadcast-tower"></i>
-                                <h3><a href="service-details.html">Cyber <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Cyber <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -244,12 +244,12 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service5.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-balance-scale"></i>
-                                <h3><a href="service-details.html">Investment <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Investment <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -257,12 +257,12 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
-                            <a href="service-details.html">
+                            <a href="service-details.php">
                                 <img src="assets/img/services/service6.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-balance-scale-right"></i>
-                                <h3><a href="service-details.html">Education <span>Law</span></a></h3>
+                                <h3><a href="service-details.php">Education <span>Law</span></a></h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
                             </div>
                         </div>
@@ -667,7 +667,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
-                            <a href="attorney-details.html">
+                            <a href="attorney-details.php">
                                 <img src="assets/img/attorney/attorney1.jpg" alt="Image">
                             </a>
                             <div class="attorney-card-text">
@@ -701,7 +701,7 @@
 
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
-                            <a href="attorney-details.html">
+                            <a href="attorney-details.php">
                                 <img src="assets/img/attorney/attorney2.jpg" alt="Image">
                             </a>
                             <div class="attorney-card-text">
@@ -735,7 +735,7 @@
 
                     <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                         <div class="attorney-card">
-                            <a href="attorney-details.html">
+                            <a href="attorney-details.php">
                                 <img src="assets/img/attorney/attorney3.jpg" alt="Image">
                             </a>
                             <div class="attorney-card-text">

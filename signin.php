@@ -17,7 +17,7 @@
                         <div class="page-content">
                             <h2>Sign In</h2>
                             <ul>
-                                <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
+                                <li><a href="index.php">Home <i class="las la-angle-right"></i></a></li>
                                 <li>Sign In</li>
                             </ul>
                         </div>
@@ -37,11 +37,11 @@
                 <div class="sign-in-form">
                     <form>
                         <div class="form-group">
-                            <input type="email" class="form-control" id="email" placeholder="Username or Email">
+                          Username/Email:<input type="email" class="form-control" id="email" placeholder="Username or Email">
                         </div>
 
                         <div class="form-group">
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                           Password:<input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
 
                         <div class="form-group form-check text-center">
@@ -53,7 +53,7 @@
                             <button type="submit" class="btn default-btn-one">Sign In</button>
 
                             <p class="account-decs">
-                                Not a member?  <a href="sign-up.html">Sign Up</a>
+                                Not a member?  <a href="sign-up.php">Sign Up</a>
                             </p>
                         </div>
                     </form>

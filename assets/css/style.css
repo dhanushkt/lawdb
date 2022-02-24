@@ -195,7 +195,7 @@ p:last-child {
 }
 
 /*================================================
-Top Heder
+Top Header
 =================================================*/
 .header-area {
   position: absolute;
@@ -1067,15 +1067,15 @@ Hero Slider Area
 }
 
 .hero-slider .hero-slider-item.item-bg1 {
-  background-image: url("../img/hero-slider/slider-1.jpg");
+  background-image: url("../img/hero-slider/logoo1.png");
 }
 
 .hero-slider .hero-slider-item.item-bg2 {
-  background-image: url("../img/hero-slider/slider-2.jpg");
+  background-image: url("../img/hero-slider/logo.png");
 }
 
 .hero-slider .hero-slider-item.item-bg3 {
-  background-image: url("../img/hero-slider/slider-3.jpg");
+  background-image: url("../img/hero-slider/log.png");
 }
 
 .hero-slider .hero-slider-item.item-bg4 {
@@ -3639,7 +3639,7 @@ Page banner Area
 }
 
 .page-banner.bg-1 {
-  background-image: url("../img/page-banner-bg.jpg");
+  background-image: url("../img/hero-slider/contact.png");
 }
 
 .page-banner::before {

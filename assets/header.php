@@ -68,7 +68,7 @@
                     <div class="container">
                         <div class="atorn-responsive-menu">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="index.php">
                                     <!-- <h2>lawdb</h2> -->
                                     <img width="100" src="assets/img/lawdb_logo.jpg" alt="logo">
                                 </a>
@@ -81,14 +81,14 @@
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <!-- <h2 style="color: #c8242f;">lawdb</h2> -->
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="index.php">
                                 <img width="100" src="assets/img/lawdb_logo.jpg" alt="logo">
                             </a>
 
                             <div class="collapse navbar-collapse mean-menu">
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link active">
+                                        <a href="index.php" class="nav-link active">
                                             Home 
                                             <!-- <i class="las la-angle-down"></i> -->
                                         </a>
@@ -108,16 +108,16 @@
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="about.html" class="nav-link">
+                                        <a href="about.php" class="nav-link">
                                             About Us
                                         </a>
                                     </li>
 
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a href="#" class="nav-link">
                                             Pages <i class="las la-angle-down"></i>
                                         </a>
-                                        <ul class="dropdown-menu">
+                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
                                                 <a href="about.html" class="nav-link">About</a>
                                             </li>
@@ -168,27 +168,29 @@
                                                 <a href="error-404.html" class="nav-link">404 Error Page</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li>-->
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            Services <i class="las la-angle-down"></i>
+                                        <a href="signin.php" class="nav-link">
+                                            Sign in
+                                            <!-- <i class="las la-angle-down"></i> -->
                                         </a>
-                                        <ul class="dropdown-menu">
+                                        <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
                                                 <a href="services.html" class="nav-link">Services</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a href="service-details.html" class="nav-link">Services Details</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            Case Study <i class="las la-angle-down"></i>
+                                        <a href="signup.php" class="nav-link">
+                                            Sign up
+                                            <!-- <i class="las la-angle-down"></i> -->
                                         </a>
-                                        <ul class="dropdown-menu">
+                                        <!-- <ul class="dropdown-menu">
                                             <li class="nav-item">
                                                 <a href="case-study.html" class="nav-link">Case Study</a>
                                             </li>
@@ -196,7 +198,23 @@
                                             <li class="nav-item">
                                                 <a href="case-study-details.html" class="nav-link">Case Study Details</a>
                                             </li>
-                                        </ul>
+                                        </ul> -->
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="services.php" class="nav-link">
+                                            Services 
+                                            <!--
+                                            <i class="las la-angle-down"></i> -->
+                                        </a>
+                                        <!-- <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a href="services.php" class="nav-link">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="service-details.php" class="nav-link">Services Details</a>
+                                            </li>
+                                        </ul>-->
                                     </li>
 
                                     <li class="nav-item">
@@ -205,16 +223,16 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="attorney.html" class="nav-link">Attorney</a>
+                                                <a href="attorney.php" class="nav-link">Attorney</a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a href="attorney-details.html" class="nav-link">Attorney Details</a>
+                                                <a href="attorney-details.php" class="nav-link">Attorney Details</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> 
 
-                                    <li class="nav-item">
+                                   <!-- <li class="nav-item">
                                         <a href="#" class="nav-link">
                                             Blog <i class="las la-angle-down"></i>
                                         </a>
@@ -227,11 +245,12 @@
                                                 <a href="blog-details.html" class="nav-link">Blog Details</a>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> 
 
                                     <li class="nav-item">
                                         <a href="contact.html" class="nav-link">Contact</a>
-                                    </li>
+                                    </li>-->
+
                                     <li class="nav-item">
                                         <a href="javascript:void(0)" class="nav-link search-box">
                                             <i class="las la-search"></i>
@@ -243,7 +262,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End Navbar Area -->
+           <!--  End Navbar Area-->
         </header>
         <!-- End Heder Area -->
 
