@@ -84,7 +84,9 @@
 
      <!-- footer.php contains Footer Area, Footer bottom Area, Go Top -->
      <?php include "./assets/footer.php"; ?>
-
-        
+    
+    <!-- script.php contains javascript -->
+    <?php include "./assets/script.php"; ?>
+            
     </body>
 </html>
