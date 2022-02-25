@@ -20,8 +20,8 @@
                                 <h1>We Provide Legal Help For You</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
-                                    <a href="#" class="default-btn-two">Learn More</a>
+                                    <a href="signin.php" class="default-btn-one me-3">Find Lawyer</a>
+                                    <a href="signin.php" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -38,8 +38,8 @@
                                 <h1>Attorneys Fight For Your Justice</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
-                                    <a href="#" class="default-btn-two">Learn More</a>
+                                    <a href="signin.php" class="default-btn-one me-3">Find Lawyer</a>
+                                    <a href="signin.php" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@
                                 <h1>It’s Our Pride To Fight For Your Dream</h1>
                                 <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth.</p>
                                 <div class="slider-btn">
-                                    <a href="#" class="default-btn-one me-3">Find Lawyer</a>
-                                    <a href="#" class="default-btn-two">Learn More</a>
+                                    <a href="signin.php" class="default-btn-one me-3">Find Lawyer</a>
+                                    <a href="signin.php" class="default-btn-two">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
         </div>
         <!-- End About Area -->
 
-        <!-- Service Area -->
+        <!-- Service Area-->
         <div class="service-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title">
@@ -193,7 +193,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/civil.png" alt="Image">
+                                <img src="assets/img/civil.png" alt="Image" width="350" height="100">
                             </a>
                             <div class="service-text">
                                 <i class="las la-city"></i>
@@ -206,7 +206,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/family.png" alt="Image">
+                                <img src="assets/img/family.png" alt="Image" width="600" height="100">
                             </a>
                             <div class="service-text">
                                 <i class="las la-users"></i>
@@ -258,7 +258,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="service-card">
                             <a href="service-details.php">
-                                <img src="assets/img/education.png" alt="Image">
+                                <img src="assets/img/Education.jpg" alt="Image">
                             </a>
                             <div class="service-text">
                                 <i class="las la-balance-scale-right"></i>
@@ -372,7 +372,7 @@
         </div>
         <!-- Ends Fun Fact Area -->
 
-        <!-- Case Study Slider Area -->
+        <!-- Case Study Slider Area 
         <div class="testimonials-area case-study-area ptb-100">
             <div class="container">
                 <div class="section-title text-center">
@@ -473,7 +473,7 @@
         <div class="contact-area ptb-100">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="contact-text">
                             <div class="section-title">
                             <span>Contact Form</span>
@@ -569,7 +569,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -669,7 +669,9 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/victor.png" alt="Image">
+                                <img src="assets/img/attorney/victor.png" alt="Image" width="200" height="100" style="
+                                    padding-left: 0px;
+                                    margin-left: 90px;">
                             </a>
                             <div class="attorney-card-text">
                                 <h3><a href="#">Victor Rodriguez</a></h3>
@@ -703,7 +705,8 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/Zia.png" alt="Image">
+                                <img src="assets/img/Zia.png" alt="Image" width="400" height="100">
+                                
                             </a>
                             <div class="attorney-card-text">
                                 <h3><a href="#">Zia Mody</a></h3>
@@ -737,7 +740,9 @@
                     <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                         <div class="attorney-card">
                             <a href="attorney-details.php">
-                                <img src="assets/img/freeman.png" alt="Image">
+                                <img src="assets/img/freeman.png" alt="Image" width="248" height="100" style="
+                                    padding-left: 0px;
+                                    margin-left: 60px;">
                             </a>
                             <div class="attorney-card-text">
                                 <h3><a href="#">Tanya L Freeman</a></h3>

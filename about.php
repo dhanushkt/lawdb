@@ -19,7 +19,7 @@
                         <div class="page-content">
                             <h2>About Us</h2>
                             <ul>
-                                <li><a href="index.html">Home <i class="las la-angle-right"></i></a></li>
+                                <li><a href="index.php">Home <i class="las la-angle-right"></i></a></li>
                                 <li>About Us</li>
                             </ul>
                         </div>
@@ -33,10 +33,10 @@
         <div class="choose-area about-page-area pt-100 pb-70">
             <div class="container">
                 <div class="section-title text-center">
-                    <h2>We Are Top Lawyers With <span> 25 Years</span> Of Experience</h2>
+                    <h2>The Top Lawyers With <span> 25 Years</span> Of Experience</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-6">
                         <div class="choose-card">
                             <i class="las la-chart-pie"></i>
@@ -133,7 +133,7 @@
         </div>
         <!-- Ends Fun Fact Area -->
 
-        <!-- About Video Area -->
+        <!-- About Video Area 
         <div class="about-video-area ptb-100">
             <div class="container">
                 <div class="about-video-contant">
@@ -157,7 +157,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="about-image">
-                            <img src="assets/img/about.png" alt="Image">
+                            <img src="assets/img/hero-slider/lawyer.png" alt="Image">
                         </div>
                     </div>
 
@@ -165,8 +165,8 @@
                         <div class="about-text">
                             <div class="section-title">
                                 <span>About Us</span>
-                                <h2>We Are Top Lawyers With<span> 25 Years</span> Of Experience</h2>
-                                <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder.</p>
+                                <h2>The Top Lawyers With<span> 25 Years</span> Of Experience</h2>
+                                <p>Focus on making yourself better. Not on thinking that you are better</p>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
@@ -212,7 +212,7 @@
                                 </div>
                             </div>
                             <div class="about-btn">
-                                <a href="#" class="default-btn-one me-3">Free Consulting</a>
+                                <a href="#" class="default-btn-one me-3">Find lawyers</a>
                             </div>
                         </div>
                     </div>
@@ -228,6 +228,7 @@
                     <div class="col-lg-6">
                         <div class="contact-text">
                             <div class="section-title">
+                            <span>Contact Form</span>
                                 <h2>Contact Us Today, Get In Touch With Expert</h2>
                                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>   
                             </div> 
@@ -271,7 +272,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <!--<div class="col-lg-6">
                         <div class="section-title">
                             <span>Contact Form</span>
                             <h2>Get A Flexible Schedule</h2>  
@@ -332,7 +333,8 @@
         </div>
         <!-- End Contact Area -->
 
-        <!-- Partner Slider Area -->
+                               
+        <!-- Partner Slider Area 
         <div class="partner-area ptb-100">
             <div class="container">
                 <div class="section-title">

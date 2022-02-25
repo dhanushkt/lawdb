@@ -40,47 +40,32 @@
 
                             <ul class="footer-text">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="las la-star"></i>
                                         Home
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="about.html">
+                                    <a href="about.php">
                                         <i class="las la-star"></i>
                                         About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="services.html">
+                                    <a href="Sign in.php">
                                         <i class="las la-star"></i>
-                                        Our Services
+                                        Sign in
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="case-study.html">
+                                    <a href="Sign up.php">
                                         <i class="las la-star"></i>
-                                        Case Study
+                                        Sign up
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="blog.html">
-                                        <i class="las la-star"></i>
-                                        Our Blog
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="las la-star"></i>
-                                        Clients Review
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="attorney.html">
-                                        <i class="las la-star"></i>
-                                        Our Attorneys
-                                    </a>
-                                </li>
+                               
+                                
+                                
                             </ul>
                         </div>
                     </div>
@@ -147,7 +132,7 @@
                                 </li>
                                 <li>
                                     <i class="las la-envelope"></i>
-                                    <a href="mailto:atorn@info.com">atorn@info.com</a>
+                                    <a href="mailto:atorn@info.com">Lawsociety@info.com</a>
                                 </li>
                                 <li>
                                     <i class="las la-map-marker-alt"></i>
@@ -164,7 +149,7 @@
         <!-- Footer bottom Area -->
         <div class="footer-bottom">
             <div class="container">
-                <p>Copyright @2021 Atorn. All rights reserved <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a></p>
+                <p>Copyright @2022 society. All rights reserved <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a></p>
             </div>
         </div>
         <!-- End Footer bottom Area -->

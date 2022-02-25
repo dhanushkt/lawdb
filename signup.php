@@ -10,7 +10,7 @@
         <!-- header.php contains Preloder Area, Header Area, Search Overlay -->
         <?php include "./assets/header.php"; ?>
 
-        <!-- Page banner Area -->
+        <!-- Page banner Area 
         <div class="page-banner bg-1">
             <div class="d-table">
                 <div class="d-table-cell">
@@ -25,13 +25,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Page banner Area -->
 
         <!-- Start Sign up Area -->
         <div class="sign-up-area ptb-100">
             <div class="container">
-                <div class="section-title">
+                <div class="section-title" style="padding-top: 10px;">
                     <h2>Create an Account!</h2>
                 
                 </div>

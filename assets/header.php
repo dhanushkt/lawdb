@@ -201,7 +201,7 @@
                                         </ul> -->
                                     </li>
 
-                                    <li class="nav-item">
+                                   <!-- <li class="nav-item">
                                         <a href="services.php" class="nav-link">
                                             Services 
                                             <!--
@@ -214,7 +214,7 @@
                                             <li class="nav-item">
                                                 <a href="service-details.php" class="nav-link">Services Details</a>
                                             </li>
-                                        </ul>-->
+                                        </ul>
                                     </li>
 
                                     <li class="nav-item">
@@ -249,13 +249,13 @@
 
                                     <li class="nav-item">
                                         <a href="contact.html" class="nav-link">Contact</a>
-                                    </li>-->
+                                    </li>
 
                                     <li class="nav-item">
                                         <a href="javascript:void(0)" class="nav-link search-box">
                                             <i class="las la-search"></i>
                                         </a>
-                                    </li>
+                                    </li>-->
                                 </ul>
                             </div>
                         </nav>
