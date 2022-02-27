@@ -52,7 +52,7 @@
                         </div>
 
                         <div class="form-group">
-                         Username:<input type="text" class="form-control" id="username" placeholder="Enter your Username">
+                         Username:<input type="text" class="form-control" id="username" placeholder="Enter Username">
                         </div>
                         <div class="form-group">
                            Email:<input type="email" class="form-control" id="email" placeholder="Email Address">

@@ -264,6 +264,7 @@
 
                             <div class="about-btn">
                                 <a href="signin.php" class="default-btn-one">Find Lawyers</a>
+                                <a href="about.php" class="default-btn-two">Read more</a>
                             </div>
                         </div>
                     </div>
@@ -452,7 +453,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Choose Area -->
+         End Choose Area -->
 
         <!-- Fun Fact Area -->
         <div class="fun-facts-area pb-70">
@@ -557,7 +558,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Case Study Slider Area -->
+         End Case Study Slider Area -->
 
         <!-- Right Way Area 
         <div class="right-way-area ptb-100">
