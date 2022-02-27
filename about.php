@@ -3,7 +3,6 @@
     <head>
          <!-- head.php contains css and title -->
          <?php include "./assets/head.php";  ?>
-        
     </head>
 
     <body>
@@ -76,9 +75,9 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-        </div>
+        </div> 
         <!-- End Choose Area -->
 
         <!-- Fun Fact Area -->
@@ -133,8 +132,8 @@
         </div>
         <!-- Ends Fun Fact Area -->
 
-        <!-- About Video Area 
-        <div class="about-video-area ptb-100">
+        <!-- About Video Area --> 
+        <!-- <div class="about-video-area ptb-100">
             <div class="container">
                 <div class="about-video-contant">
                     <div class="d-table">
@@ -148,7 +147,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End About Video Area -->
 
         <!-- About Area -->
@@ -327,15 +326,15 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
         <!-- End Contact Area -->
 
                                
-        <!-- Partner Slider Area 
-        <div class="partner-area ptb-100">
+        <!-- Partner Slider Area  -->
+        <!-- <div class="partner-area ptb-100">
             <div class="container">
                 <div class="section-title">
                     <span>Our Partner</span>
@@ -370,7 +369,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Partner Slider Area -->
 
        <!-- footer.php contains Footer Area, Footer bottom Area, Go Top -->
