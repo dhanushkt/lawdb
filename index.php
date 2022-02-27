@@ -68,7 +68,7 @@
         <!-- End Hero Slider Area -->
 
         <!-- Law Card Area -->
-        <div class="law-card-area pt-100">
+        <!-- <div class="law-card-area pt-100">
             <div class="container">
                 <div class="card-contant">
                     <div class="row no-gutters">
@@ -106,81 +106,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- End Law Card Area -->
-
-        <!-- About Area -->
-        <div class="about-area ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-5">
-                        <div class="about-image">
-                            <img src="assets/img/hero-slider/lawyer.png" alt="Image">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7">
-                        <div class="about-text">
-                            <div class="section-title">
-                                <span>About Us</span>
-                                <h2>The Top Lawyer With<span> 25 Years</span> Of Experience</h2>
-                                <p>Focus on making yourself better. Not on thinking that you are better</p>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <ul>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            100% Success Rate
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            No Need Extra Cost for Consultation
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            Expert Legal Service
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            Highly Recommendation
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <ul>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            Fast Support
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            High Court Performance
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            Free Counseling
-                                        </li>
-                                        <li>
-                                            <i class="las la-check-square"></i>
-                                            Quick Complete Case
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="about-btn">
-                                <a href="signin.php" class="default-btn-one">Find Lawyers</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End About Area -->
-
         <!-- Service Area-->
         <div class="service-area pt-100 pb-70">
             <div class="container">
@@ -270,6 +197,211 @@
                 </div>
             </div>
         </div>
+        <!-- End Service Area -->
+
+
+        <!-- About Area -->
+        <div class="about-area ptb-100">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="about-image">
+                            <img src="assets/img/hero-slider/lawyer.png" alt="Image">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="about-text">
+                            <div class="section-title">
+                                <span>About Us</span>
+                                <h2>The Top Lawyer With<span> 25 Years</span> Of Experience</h2>
+                                <p>Focus on making yourself better. Not on thinking that you are better</p>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            100% Success Rate
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            No Need Extra Cost for Consultation
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            Expert Legal Service
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            Highly Recommendation
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <ul>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            Fast Support
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            High Court Performance
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            Free Counseling
+                                        </li>
+                                        <li>
+                                            <i class="las la-check-square"></i>
+                                            Quick Complete Case
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="about-btn">
+                                <a href="signin.php" class="default-btn-one">Find Lawyers</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Area -->
+
+        <!-- Law Card Area -->
+        <div class="law-card-area pt-100">
+            <div class="container">
+                <div class="card-contant">
+                    <div class="row no-gutters">
+                        <div class="col-lg-3 bor-right col-sm-6">
+                            <div class="low-card">
+                                <h3>Court Performance</h3>
+                                <i class="las la-home"></i>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 bor-right col-sm-6">
+                            <div class="low-card">
+                                <h3>Document Review</h3>
+                                <i class="las la-file-alt"></i>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 bor-right col-sm-6">
+                            <div class="low-card">
+                                <h3>Expert Attorney</h3>
+                                <i class="las la-balance-scale"></i>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 bor-right col-sm-6">
+                            <div class="low-card">
+                                <h3>Case Dismissed</h3>
+                                <i class="las la-gavel"></i>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Law Card Area -->
+        <!-- Service Area-->
+        <!-- <div class="service-area pt-100 pb-70">
+            <div class="container">
+                <div class="section-title">
+                    <span>Our Services</span>
+                    <h2>We Are Providing <span>Top Services</span> With Excellent Performance</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/civil.png" alt="Image" width="350" height="100">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-city"></i>
+                                <h3><a href="service-details.php">Civil <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/family.png" alt="Image" width="600" height="100">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-users"></i>
+                                <h3><a href="service-details.php">Family  <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/business.jpg" alt="Image">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-user"></i>
+                                <h3><a href="service-details.php">Business <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/cyberlaw.png" alt="Image">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-broadcast-tower"></i>
+                                <h3><a href="service-details.php">Cyber <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/investment.png" alt="Image">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-balance-scale"></i>
+                                <h3><a href="service-details.php">Investment <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="service-card">
+                            <a href="service-details.php">
+                                <img src="assets/img/Education.jpg" alt="Image">
+                            </a>
+                            <div class="service-text">
+                                <i class="las la-balance-scale-right"></i>
+                                <h3><a href="service-details.php">Education <span>Law</span></a></h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. exercitation ullamco laboris nisi ut.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <!-- End Service Area -->
 
         <!-- Choose Area 
@@ -467,112 +599,10 @@
                 </div>  
             </div>
         </div>
-        <!-- End Right Way Area -->
+         End Right Way Area -->
 
         <!-- Contact Area -->
-        <div class="contact-area ptb-100">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="contact-text">
-                            <div class="section-title">
-                            <span>Contact Form</span>
-                                <h2>Contact Us Today, Get In Touch With Expert</h2>
-                                <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire hat they cannot foresee the pain and trouble.</p>   
-                            </div> 
-
-                            <div class="row">
-                                <div class="col-lg-6">
-                                        <div class="contact-card">
-                                        <span>Phone Number</span>
-                                        <h3><a href="tel:+0123456987">+0123 456 987</a></h3>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="contact-card">
-                                        <span>Our Social Link</span>
-                                        <ul>
-                                            <li>
-                                                <a href="#" target="_blank">
-                                                    <i class="lab la-facebook-f"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" target="_blank">
-                                                    <i class="lab la-twitter"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" target="_blank">
-                                                    <i class="lab la-instagram"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" target="_blank">
-                                                    <i class="lab la-google-plus"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                   <!-- <div class="col-lg-6">
-                        <div class="section-title">
-                            <span>Contact Form</span>
-                            <h2>Get A Flexible Schedule</h2>  
-                        </div> 
-                        <div class="contact-form">
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="name" class="form-control" id="name" required placeholder="Full name">
-                                            <i class="las la-user"></i>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="email" name="email" class="form-control" id="email" required placeholder="Email address">
-                                            <i class="las la-envelope"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" name="email" class="form-control" id="Phone" required placeholder="Phone No">
-                                            <i class="las la-phone"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <input type="date" name="email" class="form-control" id="date">
-                                            <i class="las la-calendar"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12">
-                                        <div class="form-group">
-                                            <textarea name="message" id="message" class="form-control" cols="30" rows="6" required placeholder="Write your message..."></textarea>
-                                            <i class="las la-sms"></i>
-                                        </div>
-                                    </div>
-        
-                                    <div class="col-lg-12 col-md-12">
-                                        <button type="submit" class="default-btn-one">Get An Appointment</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>-->
-                </div>
-            </div>
-        </div>
+        <!-- dhanush make changes here -->
         <!-- End Contact Area -->
  
         <!-- Testimonials Slider Area 
@@ -655,7 +685,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Testimonials Slider Area -->
+         End Testimonials Slider Area -->
 
         <!-- Attorney Area -->
         <div class="attorney-area pt-100 pb-70">
@@ -814,7 +844,7 @@
                 </div>
             </div>
         </div>
-        <!-- End Partner Slider Area -->
+         End Partner Slider Area -->
 
         <!-- Blog Area 
         <div class="blog-area pt-100 pb-70">
