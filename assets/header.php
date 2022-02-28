@@ -70,7 +70,7 @@
                             <div class="logo">
                                 <a href="index.php">
                                     <!-- <h2>lawdb</h2> -->
-                                    <img width="100" src="assets/img/lawdb_logo.jpg" alt="logo">
+                                    <img width="100" src="assets/img/logoo.jpg" alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -82,7 +82,7 @@
                         <nav class="navbar navbar-expand-md navbar-light">
                             <!-- <h2 style="color: #c8242f;">lawdb</h2> -->
                             <a class="navbar-brand" href="index.php">
-                                <img width="100" src="assets/img/lawdb_logo.jpg" alt="logo">
+                                <img width="100" src="assets/img/logoo.jpg" alt="logo">
                             </a>
 
                             <div class="collapse navbar-collapse mean-menu">

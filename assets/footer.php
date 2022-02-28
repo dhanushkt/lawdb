@@ -5,7 +5,7 @@
                     <div class="col-lg-5 col-sm-6">
                         <div class="footer-widget">
                             <div class="logo">
-                                <img width="100" src="assets/img/lawdb_logo.jpg" alt="logo">
+                                <img width="100" src="assets/img/logoo.jpg" alt="logo">
                             </div>
                             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum.</p>
 

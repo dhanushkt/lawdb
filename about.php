@@ -212,6 +212,7 @@
                             </div>
                             <div class="about-btn">
                                 <a href="#" class="default-btn-one me-3">Find lawyers</a>
+                                <a href="about.php" style=" background: linear-gradient(to top right, #66ccff 0%, #00ff00 100%);" class="default-btn-two">Read more</a>
                             </div>
                         </div>
                     </div>
