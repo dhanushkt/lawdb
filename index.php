@@ -201,7 +201,7 @@
 
 
         <!-- About Area -->
-        <div class="about-area ptb-100">
+        <div class="about-area ptb-50">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
@@ -274,7 +274,7 @@
         <!-- End About Area -->
 
         <!-- Law Card Area -->
-        <div class="law-card-area pt-100">
+        <div class="law-card-area pt-40">
             <div class="container">
                 <div class="card-contant">
                     <div class="row no-gutters">
@@ -456,7 +456,7 @@
          End Choose Area -->
 
         <!-- Fun Fact Area -->
-        <div class="fun-facts-area pb-70">
+        <div class="fun-facts-area pb-80">
             <div class="container">
                 <div class="fun-facts-shape top">
                     <img src="assets/img/shape.png" class="shape1" alt="Shape">

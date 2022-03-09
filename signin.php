@@ -30,7 +30,7 @@
         <!-- Start Sign in Area -->
         <div class="sign-in-area ptb-100">
             <div class="container">
-                <div class="section-title" style="padding-top: 10px;">>
+                <div class="section-title" style="padding-top: 10px;">
                     <h2>Sign in to Your Account!</h2>
                 </div>
  

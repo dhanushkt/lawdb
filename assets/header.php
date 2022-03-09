@@ -88,7 +88,7 @@
                             <div class="collapse navbar-collapse mean-menu">
                                 <ul class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a href="index.php" class="nav-link active">
+                                        <a href="index.php" class="nav-link">
                                             Home 
                                             <!-- <i class="las la-angle-down"></i> -->
                                         </a>

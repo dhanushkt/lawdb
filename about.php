@@ -29,7 +29,7 @@
         <!-- End Page banner Area -->
 
         <!-- Choose Area -->
-        <div class="choose-area about-page-area pt-100 pb-70">
+        <div class="choose-area about-page-area pt-80 pb-60">
             <div class="container">
                 <div class="section-title text-center">
                     <h2>The Top Lawyers With <span> 25 Years</span> Of Experience</h2>
@@ -81,7 +81,7 @@
         <!-- End Choose Area -->
 
         <!-- Fun Fact Area -->
-        <div class="fun-facts-area pb-100">
+        <div class="fun-facts-area pb-50">
             <div class="container">
                 <div class="fun-facts-shape top">
                     <img src="assets/img/shape.png" class="shape1" alt="Shape">
@@ -151,7 +151,7 @@
         <!-- End About Video Area -->
 
         <!-- About Area -->
-        <div class="about-area ptb-100">
+        <div class="about-area ptb-80">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
