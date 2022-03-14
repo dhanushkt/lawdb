@@ -14,19 +14,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
     <style>
-        @media only screen and (min-width: 600px) {
+        @media only screen and (min-width: 500px) {
             .hidden-desktop {
                 display: none !important;
             }
         }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 500px) {
             .hidden-mobile {
                 display: none !important;
             }
         }
 
         /* mobile nav bar */
+
         .nav {
             position: fixed;
             bottom: 0;
@@ -138,14 +139,15 @@
 
 <body>
 
-
     <div class="container-fluid">
-        <div class="jumbotron text-center">
-          <h1>Skanda Sales</h1>
+        <div class="jumbotron">
+          <h1 style="font-size:20px;">Skanda Sales<img src="img_avatar.png" style=" border-radius:50%;width:40px;float:right;" alt="Avatar"></h1>
+		  
+		  
         </div>
     </div>
 
-    <nav class="nav-desktop hidden-mobile scrollToLink2">
+    <nav class="nav hidden-mobile scrollToLink2">
         <a href="#worldwide" class="nav__link">
             <i class="fa fa-home"></i>
             <span class="nav__text">Home</span>
@@ -155,15 +157,15 @@
             <span class="nav__text">Received</span>
         </a>
         <a href="#zone" class="nav__link">
-            <i class="fa fa-newspaper"></i>
+            <i class="fa fa-search"></i>
             <span class="nav__text">Search</span>
         </a>
         <a href="#news" class="nav__link">
-            <i style="font-size: 20px; padding-bottom: 3px;" class="fa fa-newspaper"></i>
+            <i style="font-size: 20px; padding-bottom: 3px;" class="fa fa-balance-scale"></i>
             <span class="nav__text">Balance</span>
         </a>
         <a href="#" class="nav__link side-menu__toggler">
-            <i class="fa fa-align-justify"></i>
+            <i class="fa fa-file"></i>
             <span class="nav__text">Report</span>
         </a>
     </nav>
@@ -179,15 +181,15 @@
             <span class="nav__text">Received</span>
         </a>
         <a href="#zone" class="nav__link">
-            <i class="fa fa-newspaper"></i>
+            <i class="fa fa-search"></i>
             <span class="nav__text">Search</span>
         </a>
         <a href="#news" class="nav__link">
-            <i style="font-size: 20px; padding-bottom: 3px;" class="fa fa-newspaper"></i>
+            <i style="font-size: 20px; padding-bottom: 3px;" class="fa fa-balance-scale"></i>
             <span class="nav__text">Balance</span>
         </a>
         <a href="#" class="nav__link side-menu__toggler">
-            <i class="fa fa-align-justify"></i>
+            <i class="fa fa-file"></i>
             <span class="nav__text">Report</span>
         </a>
     </nav>
