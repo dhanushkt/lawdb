@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -118,7 +117,7 @@
                         </li>
                         
                         <li class="nav__item">
-                            <a href="delivery.php" class="nav__link">
+                            <a href="received.php" class="nav__link">
 							<img src="assets/img/2.png" id="icon" style="height:25px;">
                                 <span class="nav__name" style="color:white;">Delivered</span>
                             </a>
@@ -152,153 +151,9 @@
         </header>
 
         <main style="padding:10px;">
-            <!--=============== HOME ===============-->
-           
-						<!--<form method="post" action="#" >
-						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivered Shops</h3>
-						<select name="location" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required>
-						<option value="">Select your location</option>
-						
-							<option value="">Badyadka</option>
-							<option value="">Kalladka</option>
-							<option value="">Bayar</option>
-							
-						</select>
-						<input type="date" name="date" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required/>
-						<input type="submit" name="search" class="w3-input w3-border w3-round-xxlarge"  style="margin-top:5px;background-image:linear-gradient(to right,#03291f,#000);color:white;font-weight:900;" value="SEARCH">
-						</form>-->
 						
 						
 			<br>
-
-
-			
-				<span style="color:black;font-weight:900;">Date : 12-03-2022</span>
-                <span style="color:black;float:right;font-weight:900;">location : Badyadka</span>
-				
-				<!--search bar start
-				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
-				search bar start-->	
-					<div style="overflow-x:auto;">
-					<br>
-					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
-						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
-						  <th> </th>
-						  <th>#</th>
-						  <th>ID</th>
-						  <th>Shop Name</th>
-						  <th>Address</th>
-						  <th>Phone</th>
-						  <th>Owner</th>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="text-align:center;">Edit</a></td>
-						  <td>1.</td>
-						  <td>S001</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>2.</td>
-						  <td>S002</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>3.</td>
-						  <td>S003</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>4.</td>
-						  <td>S004</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>5.</td>
-						  <td>S005</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>6.</td>
-						  <td>S006</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>7.</td>
-						  <td>S007</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>8.</td>
-						  <td>S008</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>9.</td>
-						  <td>S009</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>10.</td>
-						  <td>S010</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						 
-						  
-						</tr>
-						
-						
 						
 					  </table>
 					  									<script>

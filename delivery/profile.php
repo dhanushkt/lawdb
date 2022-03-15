@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
         <!--=============== BOXICONS ===============-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -15,7 +15,9 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		
         <link rel="stylesheet" href="assets/css/styles.css">
-
+		
+		<link rel="stylesheet" href="profile.css">
+		
         <title>Responsive bottom navigation</title>
 		<style>
 			table {
@@ -146,162 +148,43 @@
                         </li>
                     </ul>
                 </div>
-				
-                <a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+				 
+		<a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
             </nav>
         </header>
-
-        <main style="padding:10px;">
-            <!--=============== HOME ===============-->
-           
-						<!--<form method="post" action="#" >
-						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivered Shops</h3>
-						<select name="location" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required>
-						<option value="">Select your location</option>
-						
-							<option value="">Badyadka</option>
-							<option value="">Kalladka</option>
-							<option value="">Bayar</option>
-							
-						</select>
-						<input type="date" name="date" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required/>
-						<input type="submit" name="search" class="w3-input w3-border w3-round-xxlarge"  style="margin-top:5px;background-image:linear-gradient(to right,#03291f,#000);color:white;font-weight:900;" value="SEARCH">
-						</form>-->
-						
-						
-			<br>
-
-
-			
-				<span style="color:black;font-weight:900;">Date : 12-03-2022</span>
-                <span style="color:black;float:right;font-weight:900;">location : Badyadka</span>
-				
-				<!--search bar start
-				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
-				search bar start-->	
-					<div style="overflow-x:auto;">
-					<br>
-					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
-						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
-						  <th> </th>
-						  <th>#</th>
-						  <th>ID</th>
-						  <th>Shop Name</th>
-						  <th>Address</th>
-						  <th>Phone</th>
-						  <th>Owner</th>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="text-align:center;">Edit</a></td>
-						  <td>1.</td>
-						  <td>S001</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>2.</td>
-						  <td>S002</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>3.</td>
-						  <td>S003</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>4.</td>
-						  <td>S004</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>5.</td>
-						  <td>S005</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>6.</td>
-						  <td>S006</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>7.</td>
-						  <td>S007</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>8.</td>
-						  <td>S008</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>9.</td>
-						  <td>S009</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>10.</td>
-						  <td>S010</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						 
-						  
-						</tr>
-						
-						
-						
-					  </table>
-					  									<script>
+        <main style=""><div class="container-fluid rounded bg-white ">
+		
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg"><span class="font-weight-bold">Ramesh</span><span class="text-black-50">ramesh@gmail.com</span><span> </span></div>
+        </div>
+        <div class="col-md-5 border-right">
+            <div class="">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="first name" value=""></div>
+                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="surname"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">Mobile Number</label><input type="text" class="form-control" placeholder="enter phone number" value=""></div>
+                    <div class="col-md-12"><label class="labels">Address</label><input type="text" class="form-control" placeholder="enter address" value=""></div>
+                   
+                </div>
+				<div class="col-mt-4">
+                <div class="col-md-12"><label class="labels">Age</label><input type="text" class="form-control" placeholder="enter age" value=""></div>
+            </div>
+                <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<script>
 function myFunction() {
   var input, filter, table, tr, td, cell, i, j;
   input = document.getElementById("myInput");
@@ -332,7 +215,8 @@ function myFunction() {
 			<section class="container section " id="about">
             </section>
         </main>
-        
+		
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
     </body>

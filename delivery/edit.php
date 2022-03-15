@@ -147,36 +147,37 @@
                     </ul>
                 </div>
 				
-                <a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+                <a href="profile.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
             </nav>
         </header>
 
         <main style="padding:10px;">
             <!--=============== HOME ===============-->
            
-						<!--<form method="post" action="#" >
+						<form method="post" action="#" >
 						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivered Shops</h3>
-						<select name="location" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required>
-						<option value="">Select your location</option>
+						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
 						
-							<option value="">Badyadka</option>
-							<option value="">Kalladka</option>
-							<option value="">Bayar</option>
-							
-						</select>
-						<input type="date" name="date" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required/>
-						<input type="submit" name="search" class="w3-input w3-border w3-round-xxlarge"  style="margin-top:5px;background-image:linear-gradient(to right,#03291f,#000);color:white;font-weight:900;" value="SEARCH">
-						</form>-->
+						</form>
 						
 						
 			<br>
 
 
 			
-				<span style="color:black;font-weight:900;">Date : 12-03-2022</span>
+				<span style="color:black;font-weight:900;">Date : 12-03-2022</span> <br>
                 <span style="color:black;float:right;font-weight:900;">location : Badyadka</span>
-				
+				<span style="color:black;font-weight:900;">shop no: S001</span><br>
+				<span style="color:black;font-weight:900;">Name : Sweet bakery</span>
+				 <span style="color:black;float:right;font-weight:900;">Phone no : 9947654434</span><br>
+				<span style="color:black;font-weight:900;">Address : Badyadka junction,main road</span>
+				 <span style="color:black;float:right;font-weight:900;">Owner Name : Ramesh</span>
+				 
+				 <form method="post" action="#" >
+						
+						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
+						
+						</form>
 				<!--search bar start
 				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
 				search bar start-->	
@@ -184,123 +185,119 @@
 					<br>
 					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
 						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
-						  <th> </th>
+						  
 						  <th>#</th>
 						  <th>ID</th>
-						  <th>Shop Name</th>
-						  <th>Address</th>
-						  <th>Phone</th>
-						  <th>Owner</th>
+						  <th>Product Name</th>
+						  <th>Quantity</th>
+						  <th>price</th>
+						  
 						  
 						</tr>
 						
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="text-align:center;">Edit</a></td>
 						  <td>1.</td>
 						  <td>S001</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
+						  <td>chips</td>
+						  <td>60kg</td>
+						  <td>6000</td>
+						  
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
 						  <td>2.</td>
 						  <td>S002</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
+						  <td>mixture</td>
+						  <td>500g</td>
+						  <td>100</td>
+						  
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
 						  <td>3.</td>
 						  <td>S003</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>4.</td>
-						  <td>S004</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>5.</td>
-						  <td>S005</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>6.</td>
-						  <td>S006</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>7.</td>
-						  <td>S007</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>8.</td>
-						  <td>S008</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>9.</td>
-						  <td>S009</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
-						  <td>10.</td>
-						  <td>S010</td>
-						  <td>Sweet Bakery</td>
-						  <td>Badyadka Junction, main road</td>
-						  <td>9947654434</td>
-						  <td>Ramesh</td>
+						  <td>cookies</td>
+						  <td>5kg</td>
+						  <td>500</td>
 						 
 						  
 						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+					
+						  <td>4.</td>
+						  <td>S004</td>
+						  <td>potato chips</td>
+						  <td>10kg</td>
+						  <td>1000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 
+						  <td>5.</td>
+						  <td>S005</td>
+						  <td>cake</td>
+						  <td>500g</td>
+						  <td>5000</td>
+						  
+						  
+						</tr>
 						
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						  <td>6.</td>
+						  <td>S006</td>
+						  <td>bread&buns</td>
+						  <td>500 packet</td>
+						  <td>1500</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						  
+						  <td>7.</td>
+						  <td>S007</td>
+						  <td>chakkuli</td>
+						  <td>4 kg</td>
+						  <td>2000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 
+						  <td>8.</td>
+						  <td>S008</td>
+						  <td>pastry</td>
+						  <td>500 pieces</td>
+						  <td>2500</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 
+						  <td>9.</td>
+						  <td>S009</td>
+						  <td>toast</td>
+						  <td>500g</td>
+						  <td>15000</td>
+						
+						  
+						</tr>
+						
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						  
+						  <td>10.</td>
+						  <td>S010</td>
+						  <td>Butter</td>
+						  <td>250g</td>
+						  <td>12000</td>
+						  
+						  
+						</tr>
 						
 						
 					  </table>
+					  <br>
+					  <button name="submit" type="submit">Delivered</button>
 					  									<script>
 function myFunction() {
   var input, filter, table, tr, td, cell, i, j;

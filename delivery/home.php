@@ -118,7 +118,7 @@
                         </li>
                         
                         <li class="nav__item">
-                            <a href="received.php" class="nav__link">
+                            <a href="delivery.php" class="nav__link">
 							<img src="assets/img/2.png" id="icon" style="height:25px;">
                                 <span class="nav__name" style="color:white;">Delivered</span>
                             </a>
@@ -132,14 +132,14 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="balance.php" class="nav__link">
+                            <a href="report.php" class="nav__link">
                                 <img src="assets/img/4.png" id="icon"  style="height:25px;">
                                 <span class="nav__name" style="color:white;">Report</span>
                             </a>
                         </li>
 						
 						<li class="nav__item">
-                            <a href="balance.php" class="nav__link">
+                            <a href="profile.php" class="nav__link">
                                 <img src="assets/img/5.png" id="icon"  style="height:25px;">
                                 <span class="nav__name" style="color:white;">Profile</span>
                             </a>
@@ -147,7 +147,7 @@
                     </ul>
                 </div>
 				
-                <a href="profile.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+                <a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
             </nav>
         </header>
 
