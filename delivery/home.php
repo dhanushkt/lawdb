@@ -165,7 +165,7 @@
 							<option value="">Bayar</option>
 							
 						</select>
-						<input type="date" name="date" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required/>
+						<input type="date" name="date" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" <required/>
 						<input type="submit" name="search" class="w3-input w3-border w3-round-xxlarge"  style="margin-top:5px;background-image:linear-gradient(to right,#03291f,#000);color:white;font-weight:900;" value="SEARCH">
 						</form>
 						

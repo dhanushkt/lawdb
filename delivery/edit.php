@@ -147,7 +147,7 @@
                     </ul>
                 </div>
 				
-                <a href="profile.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+                <a href="rsponsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
             </nav>
         </header>
 
@@ -159,33 +159,33 @@
 						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
 						
 						</form>
-						
-						
-			<br>
 
-
-			
-				<span style="color:black;font-weight:900;">Date : 12-03-2022</span> <br>
-                <span style="color:black;float:right;font-weight:900;">location : Badyadka</span>
-				<span style="color:black;font-weight:900;">shop no: S001</span><br>
-				<span style="color:black;font-weight:900;">Name : Sweet bakery</span>
-				 <span style="color:black;float:right;font-weight:900;">Phone no : 9947654434</span><br>
-				<span style="color:black;font-weight:900;">Address : Badyadka junction,main road</span>
-				 <span style="color:black;float:right;font-weight:900;">Owner Name : Ramesh</span>
+				 <table id="myTable" style="white-space:nowrap; color:#03291f;">
+				<tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;">
+				<tr><td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
+                <td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td></tr>
+				<tr><td><span style="color:black;font-weight:900;">shop no: S001</span></td>
+				<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td></tr>
+				<tr><td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
+				<td><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td></tr>
+				 <td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td></tr>
 				 
-				 <form method="post" action="#" >
-						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
-						
-						</form>
 				<!--search bar start
 				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
 				search bar start-->	
+						
+						
+						
+					
+			
 					<div style="overflow-x:auto;">
 					<br>
 					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
+					 
+					  <h3><center>Order Details </center></h3>
 						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
-						  
+						 
+						  <th> </th>
 						  <th>#</th>
 						  <th>ID</th>
 						  <th>Product Name</th>
@@ -196,6 +196,7 @@
 						</tr>
 						
 						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name1" />&nbsp;</td>
 						  <td>1.</td>
 						  <td>S001</td>
 						  <td>chips</td>
@@ -205,6 +206,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name2" />&nbsp;</td>
 						  <td>2.</td>
 						  <td>S002</td>
 						  <td>mixture</td>
@@ -214,6 +216,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name3" />&nbsp;</td>
 						  <td>3.</td>
 						  <td>S003</td>
 						  <td>cookies</td>
@@ -223,7 +226,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-					
+					     <td><input type="checkbox" name="name4" />&nbsp;</td>
 						  <td>4.</td>
 						  <td>S004</td>
 						  <td>potato chips</td>
@@ -233,7 +236,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 
+						 <td><input type="checkbox" name="name5" />&nbsp;</td>
 						  <td>5.</td>
 						  <td>S005</td>
 						  <td>cake</td>
@@ -242,8 +245,8 @@
 						  
 						  
 						</tr>
-						
 						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name6" />&nbsp;</td>
 						  <td>6.</td>
 						  <td>S006</td>
 						  <td>bread&buns</td>
@@ -253,7 +256,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  
+						  <td><input type="checkbox" name="name7" />&nbsp;</td>
 						  <td>7.</td>
 						  <td>S007</td>
 						  <td>chakkuli</td>
@@ -263,7 +266,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 
+						 <td><input type="checkbox" name="name8" />&nbsp;</td>
 						  <td>8.</td>
 						  <td>S008</td>
 						  <td>pastry</td>
@@ -273,7 +276,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 
+						 <td><input type="checkbox" name="name9" />&nbsp;</td>
 						  <td>9.</td>
 						  <td>S009</td>
 						  <td>toast</td>
@@ -284,7 +287,7 @@
 						</tr>
 						
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  
+						  <td><input type="checkbox" name="name10" />&nbsp;</td>
 						  <td>10.</td>
 						  <td>S010</td>
 						  <td>Butter</td>
@@ -298,6 +301,7 @@
 					  </table>
 					  <br>
 					  <button name="submit" type="submit">Delivered</button>
+					  
 					  									<script>
 function myFunction() {
   var input, filter, table, tr, td, cell, i, j;

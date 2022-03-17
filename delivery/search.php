@@ -138,7 +138,7 @@
                         </li>
 						
 						<li class="nav__item">
-                            <a href="balance.php" class="nav__link">
+                            <a href="profile.php" class="nav__link">
                                 <img src="assets/img/5.png" id="icon"  style="height:25px;">
                                 <span class="nav__name" style="color:white;">Profile</span>
                             </a>
@@ -146,7 +146,7 @@
                     </ul>
                 </div>
 				
-                <a href="profile.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+                <a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
             </nav>
         </header>
 
@@ -155,9 +155,12 @@
            
 						<form method="post" action="#" >
 						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivered Shops</h3>
+						<h3 class="section__title" style="color:#03291f; font-weight:800;">Search</h3>
 						
 						<!--search bar start-->
+						
+				<span style="color:black;font-weight:900;">Date : 12-03-2022</span>
+                <span style="color:black;float:right;font-weight:900;">location : Badyadka</span>
 						<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
 				<!--search bar start-->	
 						<input type="submit" name="search" class="w3-input w3-border w3-round-xxlarge"  style="margin-top:5px;background-image:linear-gradient(to right,#03291f,#000);color:white;font-weight:900;" value="SEARCH">
@@ -167,6 +170,154 @@
 			<br>
 						
 					  </table>
+					  <form method="post" action="#" >
+						
+						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
+						
+						</form>
+
+				 <table id="myTable" style="white-space:nowrap; color:#03291f;">
+				<tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;">
+				<tr><td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
+                <td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td></tr>
+				<tr><td><span style="color:black;font-weight:900;">shop no: S001</span></td>
+				<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td></tr>
+				<tr><td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
+				<td><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td></tr>
+				 <td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td></tr>
+				 
+				<!--search bar start
+				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
+				search bar start-->	
+						
+						
+						
+					
+			
+					<div style="overflow-x:auto;">
+					<br>
+					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
+					 
+					  <h3><center>Order Details </center></h3>
+						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
+						 
+						  <th> </th>
+						  <th>#</th>
+						  <th>ID</th>
+						  <th>Product Name</th>
+						  <th>Quantity</th>
+						  <th>price</th>
+						  
+						  
+						</tr>
+						
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name1" />&nbsp;</td>
+						  <td>1.</td>
+						  <td>S001</td>
+						  <td>chips</td>
+						  <td>60kg</td>
+						  <td>6000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name2" />&nbsp;</td>
+						  <td>2.</td>
+						  <td>S002</td>
+						  <td>mixture</td>
+						  <td>500g</td>
+						  <td>100</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name3" />&nbsp;</td>
+						  <td>3.</td>
+						  <td>S003</td>
+						  <td>cookies</td>
+						  <td>5kg</td>
+						  <td>500</td>
+						 
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+					     <td><input type="checkbox" name="name4" />&nbsp;</td>
+						  <td>4.</td>
+						  <td>S004</td>
+						  <td>potato chips</td>
+						  <td>10kg</td>
+						  <td>1000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 <td><input type="checkbox" name="name5" />&nbsp;</td>
+						  <td>5.</td>
+						  <td>S005</td>
+						  <td>cake</td>
+						  <td>500g</td>
+						  <td>5000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name6" />&nbsp;</td>
+						  <td>6.</td>
+						  <td>S006</td>
+						  <td>bread&buns</td>
+						  <td>500 packet</td>
+						  <td>1500</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						  <td><input type="checkbox" name="name7" />&nbsp;</td>
+						  <td>7.</td>
+						  <td>S007</td>
+						  <td>chakkuli</td>
+						  <td>4 kg</td>
+						  <td>2000</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 <td><input type="checkbox" name="name8" />&nbsp;</td>
+						  <td>8.</td>
+						  <td>S008</td>
+						  <td>pastry</td>
+						  <td>500 pieces</td>
+						  <td>2500</td>
+						  
+						  
+						</tr>
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						 <td><input type="checkbox" name="name9" />&nbsp;</td>
+						  <td>9.</td>
+						  <td>S009</td>
+						  <td>toast</td>
+						  <td>500g</td>
+						  <td>15000</td>
+						
+						  
+						</tr>
+						
+						<tr style="box-shadow: 0px 0.5px 1px black;">
+						  <td><input type="checkbox" name="name10" />&nbsp;</td>
+						  <td>10.</td>
+						  <td>S010</td>
+						  <td>Butter</td>
+						  <td>250g</td>
+						  <td>12000</td>
+						  
+						  
+						</tr>
+						
+						
+					  </table>
+					  <br>
+					  <button name="submit" type="submit">Delivered</button>
+					  
 					  									<script>
 function myFunction() {
   var input, filter, table, tr, td, cell, i, j;

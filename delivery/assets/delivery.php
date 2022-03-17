@@ -225,7 +225,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						  <td><a href="view.php?viewid" class="button2" style="">Edit</a></td>
 						  <td>4.</td>
 						  <td>S004</td>
 						  <td>Sweet Bakery</td>
