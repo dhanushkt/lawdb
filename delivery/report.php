@@ -117,7 +117,7 @@
                         </li>
                         
                         <li class="nav__item">
-                            <a href="received.php" class="nav__link">
+                            <a href="delivery.php" class="nav__link">
 							<img src="assets/img/2.png" id="icon" style="height:25px;">
                                 <span class="nav__name" style="color:white;">Delivered</span>
                             </a>
