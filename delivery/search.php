@@ -170,187 +170,199 @@
 			<br>
 						
 					  </table>
-					  <form method="post" action="#" >
-						
-						<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
-						
-						</form>
+		<class="container-fluid" id="search">
+			<!-- <form method="post" action="#"> -->
 
-				 <table id="myTable" style="white-space:nowrap; color:#03291f;">
-				<tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;">
-				<tr><td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
-                <td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td></tr>
-				<tr><td><span style="color:black;font-weight:900;">shop no: S001</span></td>
-				<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td></tr>
-				<tr><td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
-				<td><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td></tr>
-				 <td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td></tr>
-				 
-				<!--search bar start
+			<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
+
+			<!-- </form> -->
+			<div style="overflow-x: auto;">
+				<table id="myTable" style="white-space:nowrap; color:#03291f;">
+					<!-- <tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;"> -->
+					<tr>
+						<td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
+						<td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">shop no: S001</span></td>
+						<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
+						<td><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td>
+					</tr>
+				</table>
+			</div>
+			<!--search bar start
 				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
-				search bar start-->	
-						
-						
-						
-					
-			
-					<div style="overflow-x:auto;">
-					<br>
-					  <table id="myTable" style="white-space:nowrap; color:#03291f;">
-					 
-					  <h3><center>Order Details </center></h3>
-						<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
-						 
-						  <th> </th>
-						  <th>#</th>
-						  <th>ID</th>
-						  <th>Product Name</th>
-						  <th>Quantity</th>
-						  <th>price</th>
-						  
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
+				search bar start-->
+
+			<div style=" overflow-x: scroll;">
+				<br>
+				<h3>
+					<center>Order Details </center>
+				</h3>
+
+				<table id="myTable" style="white-space:nowrap; color:#03291f;">
+
+
+					<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
+
+						<th> </th>
+						<th>#</th>
+						<th>ID</th>
+						<th>Product Name</th>
+						<th>Quantity</th>
+						<th>price</th>
+
+
+					</tr>
+
+					<tr style="box-shadow: 0px 0.5px 1px black;">
 						<td><input type="checkbox" name="name1" />&nbsp;</td>
-						  <td>1.</td>
-						  <td>S001</td>
-						  <td>chips</td>
-						  <td>60kg</td>
-						  <td>6000</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td>1.</td>
+						<td>S001</td>
+						<td>chips</td>
+						<td>60kg</td>
+						<td>6000</td>
+
+
+					</tr>
+
+					<tr style="box-shadow: 0px 0.5px 1px black;">
 						<td><input type="checkbox" name="name2" />&nbsp;</td>
-						  <td>2.</td>
-						  <td>S002</td>
-						  <td>mixture</td>
-						  <td>500g</td>
-						  <td>100</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td>2.</td>
+						<td>S002</td>
+						<td>mixture</td>
+						<td>500g</td>
+						<td>100</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
 						<td><input type="checkbox" name="name3" />&nbsp;</td>
-						  <td>3.</td>
-						  <td>S003</td>
-						  <td>cookies</td>
-						  <td>5kg</td>
-						  <td>500</td>
-						 
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-					     <td><input type="checkbox" name="name4" />&nbsp;</td>
-						  <td>4.</td>
-						  <td>S004</td>
-						  <td>potato chips</td>
-						  <td>10kg</td>
-						  <td>1000</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 <td><input type="checkbox" name="name5" />&nbsp;</td>
-						  <td>5.</td>
-						  <td>S005</td>
-						  <td>cake</td>
-						  <td>500g</td>
-						  <td>5000</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td>3.</td>
+						<td>S003</td>
+						<td>cookies</td>
+						<td>5kg</td>
+						<td>500</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name4" />&nbsp;</td>
+						<td>4.</td>
+						<td>S004</td>
+						<td>potato chips</td>
+						<td>10kg</td>
+						<td>1000</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name5" />&nbsp;</td>
+						<td>5.</td>
+						<td>S005</td>
+						<td>cake</td>
+						<td>500g</td>
+						<td>5000</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
 						<td><input type="checkbox" name="name6" />&nbsp;</td>
-						  <td>6.</td>
-						  <td>S006</td>
-						  <td>bread&buns</td>
-						  <td>500 packet</td>
-						  <td>1500</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><input type="checkbox" name="name7" />&nbsp;</td>
-						  <td>7.</td>
-						  <td>S007</td>
-						  <td>chakkuli</td>
-						  <td>4 kg</td>
-						  <td>2000</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 <td><input type="checkbox" name="name8" />&nbsp;</td>
-						  <td>8.</td>
-						  <td>S008</td>
-						  <td>pastry</td>
-						  <td>500 pieces</td>
-						  <td>2500</td>
-						  
-						  
-						</tr>
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						 <td><input type="checkbox" name="name9" />&nbsp;</td>
-						  <td>9.</td>
-						  <td>S009</td>
-						  <td>toast</td>
-						  <td>500g</td>
-						  <td>15000</td>
-						
-						  
-						</tr>
-						
-						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><input type="checkbox" name="name10" />&nbsp;</td>
-						  <td>10.</td>
-						  <td>S010</td>
-						  <td>Butter</td>
-						  <td>250g</td>
-						  <td>12000</td>
-						  
-						  
-						</tr>
-						
-						
-					  </table>
-					  <br>
-					  <button name="submit" type="submit">Delivered</button>
-					  
-					  									<script>
-function myFunction() {
-  var input, filter, table, tr, td, cell, i, j;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 1; i < tr.length; i++) {
-    // Hide the row initially.
-    tr[i].style.display = "none";
-  
-    td = tr[i].getElementsByTagName("td");
-    for (var j = 0; j < td.length; j++) {
-      cell = tr[i].getElementsByTagName("td")[j];
-      if (cell) {
-        if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-          break;
-        } 
-      }
-    }
-  }
-}
-</script>
-					</div>
-					
-            </section>
-			
-			<section class="container section " id="about">
-            </section>
-        </main>
-        
-        <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+						<td>6.</td>
+						<td>S006</td>
+						<td>bread&buns</td>
+						<td>500 packet</td>
+						<td>1500</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name7" />&nbsp;</td>
+						<td>7.</td>
+						<td>S007</td>
+						<td>chakkuli</td>
+						<td>4 kg</td>
+						<td>2000</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name8" />&nbsp;</td>
+						<td>8.</td>
+						<td>S008</td>
+						<td>pastry</td>
+						<td>500 pieces</td>
+						<td>2500</td>
+
+
+					</tr>
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name9" />&nbsp;</td>
+						<td>9.</td>
+						<td>S009</td>
+						<td>toast</td>
+						<td>500g</td>
+						<td>15000</td>
+
+
+					</tr>
+
+					<tr style="box-shadow: 0px 0.5px 1px black;">
+						<td><input type="checkbox" name="name10" />&nbsp;</td>
+						<td>10.</td>
+						<td>S010</td>
+						<td>Butter</td>
+						<td>250g</td>
+						<td>12000</td>
+
+
+					</tr>
+
+
+				</table>
+				<br>
+				<button name="submit" type="submit">Delivered</button>
+
+
+			</div>
+
+		</section>
+
+		<section class="container section " id="about">
+		</section>
+	</main>
+
+	<!--=============== MAIN JS ===============-->
+	<script src="assets/js/main.js"></script>
+	<script>
+		function myFunction() {
+			var input, filter, table, tr, td, cell, i, j;
+			input = document.getElementById("myInput");
+			filter = input.value.toUpperCase();
+			table = document.getElementById("myTable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 1; i < tr.length; i++) {
+				// Hide the row initially.
+				tr[i].style.display = "none";
+
+				td = tr[i].getElementsByTagName("td");
+				for (var j = 0; j < td.length; j++) {
+					cell = tr[i].getElementsByTagName("td")[j];
+					if (cell) {
+						if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+							tr[i].style.display = "";
+							break;
+						}
+					}
+				}
+			}
+		}
+	</script>
     </body>
 </html>

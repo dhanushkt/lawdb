@@ -154,11 +154,11 @@
         <main style="padding:10px;">
             <!--=============== HOME ===============-->
            
-						<!--<form method="post" action="#" >
+						<form method="post" action="#" >
 						
 						<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivered Shops</h3>
-						<select name="location" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required>
-						<option value="">Select your location</option>
+						<!--<select name="location" class="w3-input w3-border w3-round-xxlarge" style="width:48%;display:inline-block;background-color:#edf7f5;" required>
+							<option value="">Select your location</option>
 						
 							<option value="">Badyadka</option>
 							<option value="">Kalladka</option>

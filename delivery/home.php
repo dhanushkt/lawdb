@@ -205,7 +205,7 @@
 					</tr>
 
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="text-align:center;">view</a></td>
+						<td><a href="view.php" class="button2" style="text-align:center;">view</a></td>
 						<td>1.</td>
 						<td>S001</td>
 						<td>Sweet Bakery</td>
@@ -215,7 +215,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>2.</td>
 						<td>S002</td>
 						<td>Sweet Bakery</td>
@@ -225,7 +225,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>3.</td>
 						<td>S003</td>
 						<td>Sweet Bakery</td>
@@ -235,7 +235,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>4.</td>
 						<td>S004</td>
 						<td>Sweet Bakery</td>
@@ -245,7 +245,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>5.</td>
 						<td>S005</td>
 						<td>Sweet Bakery</td>
@@ -256,7 +256,7 @@
 					</tr>
 
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>6.</td>
 						<td>S006</td>
 						<td>Sweet Bakery</td>
@@ -266,7 +266,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>7.</td>
 						<td>S007</td>
 						<td>Sweet Bakery</td>
@@ -276,7 +276,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>8.</td>
 						<td>S008</td>
 						<td>Sweet Bakery</td>
@@ -286,7 +286,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>9.</td>
 						<td>S009</td>
 						<td>Sweet Bakery</td>
@@ -297,7 +297,7 @@
 					</tr>
 
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
+						<td><a href="view.php" class="button2" style="">view</a></td>
 						<td>10.</td>
 						<td>S010</td>
 						<td>Sweet Bakery</td>
@@ -306,39 +306,7 @@
 						<td>Ramesh</td>
 
 					</tr>
-					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
-						<td>11.</td>
-						<td>S011</td>
-						<td>Sweet Bakery</td>
-						<td>Badyadka Junction, main road</td>
-						<td>9947654434</td>
-						<td>Ramesh</td>
-
-					</tr>
-					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
-						<td>12.</td>
-						<td>S012</td>
-						<td>Sweet Bakery</td>
-						<td>Badyadka Junction, main road</td>
-						<td>9947654434</td>
-						<td>Ramesh</td>
-
-					</tr>
-					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php?viewid" class="button2" style="">view</a></td>
-						<td>13.</td>
-						<td>S013</td>
-						<td>Sweet Bakery</td>
-						<td>Badyadka Junction, main road</td>
-						<td>9947654434</td>
-						<td>Ramesh</td>
-
-					</tr>
-
-
-
+					
 				</table>
 				<script>
 					function myFunction() {

@@ -156,13 +156,13 @@
 				</ul>
 			</div>
 
-			<a href="rsponsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
+			<a href="responsive.php" style="margin-top:10px;"><img src="assets/img/6.png" alt="" class="nav__img"></a>
 		</nav>
 	</header>
 
 	<main style="padding:10px; ">
 		<!--=============== HOME ===============-->
-		<section class="container-fluid section " id="view">
+		<section class="container-fluid section" id="view">
 			<!-- <form method="post" action="#"> -->
 
 			<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
