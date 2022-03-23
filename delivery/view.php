@@ -168,36 +168,37 @@
 			<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
 
 			<!-- </form> -->
-
-			<table id="myTable" style="white-space:nowrap; color:#03291f;">
-				<!-- <tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;"> -->
-				<tr>
-					<td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
-					<td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td>
-				</tr>
-				<tr>
-					<td><span style="color:black;font-weight:900;">shop no: S001</span></td>
-					<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td>
-				</tr>
-				<tr>
-					<td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
-					<td><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td>
-				</tr>
-				<tr>
-					<td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td>
-				</tr>
-			</table>
+			<div style="overflow-x: auto;">
+				<table id="myTable" style="white-space:nowrap; color:#03291f;">
+					<!-- <tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;"> -->
+					<tr>
+						<td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
+						<td><span style="color:black;float:right;font-weight:900;">location : Badyadka</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">shop no: S001</span></td>
+						<td><span style="color:black;float:right;font-weight:900;">Name : Sweet bakery</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
+						<td><span style="color:black;font-weight:900;">Address : Badyadka junction,main road</span></td>
+					</tr>
+					<tr>
+						<td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td>
+					</tr>
+				</table>
+			</div>
 			<!--search bar start
 				<input class="w3-input" style="border:1px solid #03291f" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
 				search bar start-->
 
-			<!-- <div style=""> -->
+			<div style=" overflow-x: scroll;">
 				<br>
 				<h3>
 					<center>Order Details </center>
 				</h3>
 
-				<table id="myTable" style="white-space:nowrap; color:#03291f; overflow-x: scroll;">
+				<table id="myTable" style="white-space:nowrap; color:#03291f;">
 
 
 					<tr style="box-shadow: 0px 3px 1px #03291f; border-top:3px solid #03291f;">
@@ -321,7 +322,7 @@
 				<button name="submit" type="submit">Delivered</button>
 
 
-			<!-- </div> -->
+			</div>
 
 		</section>
 
