@@ -152,7 +152,7 @@
 
         <main style="padding:10px;">
             <!--=============== HOME ===============-->
-           
+			<class="container-fluid" id="search">
 						<form method="post" action="#" >
 						
 						<h3 class="section__title" style="color:#03291f; font-weight:800;">Search</h3>

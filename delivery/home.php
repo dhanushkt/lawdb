@@ -162,7 +162,7 @@
 
 	<main style="padding:10px;">
 		<!--=============== HOME ===============-->
-		<section class="container-fluid section " id="about">
+		<class="container-fluid" id="about">
 			<form method="post" action="#">
 
 				<h3 class="section__title" style="color:#03291f; font-weight:800;">Delivery Details</h3>

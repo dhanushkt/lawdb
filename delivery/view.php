@@ -162,14 +162,14 @@
 
 	<main style="padding:10px; ">
 		<!--=============== HOME ===============-->
-		<section class="container-fluid section" id="view">
+		<class="container-fluid" id="view">
 			<!-- <form method="post" action="#"> -->
 
 			<h3 class="section__title" style="color:#03291f; font-weight:800;">Shop Details</h3>
 
 			<!-- </form> -->
 			<div style="overflow-x: auto;">
-				<table id="myTable" style="white-space:nowrap; color:#03291f;">
+				<table id="myTable" style="white-space:normal; color:#03291f;">
 					<!-- <tr style="box-shadow: 0px 3px 1px #03291f; border-top:0px solid #03291f;"> -->
 					<tr>
 						<td><span style="color:black;font-weight:900;">Date : 12-03-2022</span></td>
@@ -181,7 +181,7 @@
 					</tr>
 					<tr>
 						<td><span style="color:black;font-weight:900;">Phone no : 9947654434</span></td>
-						<td><span style="color:black;font-weight:900;">Address : Badyadka junction,main road</span></td>
+						<td style="text-align:right;"><span style="color:black;float:right;font-weight:900;">Address : Badyadka junction,main road</span></td>
 					</tr>
 					<tr>
 						<td><span style="color:black;font-weight:900;">Owner Name : Ramesh</span></td>
