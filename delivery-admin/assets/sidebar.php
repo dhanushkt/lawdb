@@ -19,23 +19,38 @@
             </div>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/form.html">
+            <a class="nav-link" href="add_shop.php">
                 <span class="menu-title">Add Shops</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/items.html">
+            <a class="nav-link" href="items.php">
                 <span class="menu-title">Add items</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/Order.html">
+            <a class="nav-link" href="Order.php">
                 <span class="menu-title">Order Employees</span>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="pages/forms/add_order.html">
+            <a class="nav-link" href="add_order.php">
                 <span class="menu-title">Add Order</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="view_order.php">
+                <span class="menu-title">View Order</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="delivered.php">
+                <span class="menu-title">Delivered Shops</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="delivery_shop.php">
+                <span class="menu-title">Delivery Shops</span>
             </a>
         </li>
         <li class="nav-item">
