@@ -23,19 +23,19 @@
                         <form class="forms-sample">
                             <div class="row">
                                 <div class="col-xl-4 mb-4">
-                                    <input type="number" class="form-control" id="Inputid" placeholder = "Select Location">
+                                    <input type="number" class="form-control" id="Inputid" placeholder="Select Location">
                                 </div>
                                 <div class="col-xl-4 mb-4">
-                                    <input type="text" class="form-control" id="Inputname" placeholder = "Select Date">
+                                    <input type="text" class="form-control" id="Inputname" placeholder="Select Date">
                                 </div>
                                 <div class="col-sm-4" style="margin-bottom: 2%" ;>
                                     <button type="search" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Search</button>
                                 </div>
-                                    <div class="container">
+                                <div class="container">
                                     <div class="center">
-                                  <button>Freeze Data</button>
+                                        <button>Freeze Data</button>
                                     </div>
-                                    </div>
+                                </div>
                         </form>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                                     <tbody>
                                         <tr class="table-info">
                                             <td>
-                                                <input type="number" id="snumber" value="1" contenteditable = "true"  style ="border : 0px solid transparent" class="table-info">
+                                                <input type="number" id="snumber" value="1" contenteditable="true" style="border : 0px solid transparent" class="table-info">
                                             </td>
                                             <td>
                                                 SH001
@@ -85,7 +85,7 @@
                                         </tr>
                                         <tr class="table-warning">
                                             <td>
-                                                <input type="number" id="snumber" value="2" contenteditable = "true"  style ="border : 0px solid transparent" class="table-warning">
+                                                <input type="number" id="snumber" value="2" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
                                             </td>
                                             <td>
                                                 SH002
@@ -97,13 +97,13 @@
                                                 12900
                                             </td>
                                             <td>
-                                                 <button>View</button>
+                                                <button>View</button>
                                             </td>
                                             <td>Print Invoice</td>
                                         </tr>
                                         <tr class="table-danger">
-                                            <td> 
-                                                <input type="number" id="snumber"value="3" contenteditable = "true" style=" border: 0px solid transparent" class="table-danger">
+                                            <td>
+                                                <input type="number" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
                                             </td>
                                             <td>
                                                 SH003
@@ -113,13 +113,13 @@
                                             </td>
                                             <td>5900</td>
                                             <td>
-                                            <button>View</button>
+                                                <button>View</button>
                                             </td>
                                             <td>Print invoice</td>
                                         </tr>
                                         <tr class="table-success">
-                                            <td>                                
-                                               <input type="number" id="snumber" value="4" contenteditable = "true" style="border : 0px solid transparent" class="table-success">
+                                            <td>
+                                                <input type="number" id="snumber" value="4" contenteditable="true" style="border : 0px solid transparent" class="table-success">
                                             </td>
                                             <td>
                                                 SH004
@@ -137,8 +137,8 @@
                                         </tr>
                                         <tr class="table-primary">
                                             <td>
-                                                <input type="number" id="snumber" value="5" contenteditable = "true"  style="border : 0px solid transparent" class="table-primary">
-                                                
+                                                <input type="number" id="snumber" value="5" contenteditable="true" style="border : 0px solid transparent" class="table-primary">
+
                                             </td>
                                             <td>
                                                 SH005
@@ -150,13 +150,13 @@
                                                 2300
                                             </td>
                                             <td>
-                                            <button>View</button>
+                                                <button>View</button>
                                             </td>
                                             <td>Print invoice</td>
                                         </tr>
                                         <tr class="table-success">
-                                            <td>                                
-                                               <input type="number" id="snumber" value="6" contenteditable = "true" style="border : 0px solid transparent" class="table-success">
+                                            <td>
+                                                <input type="number" id="snumber" value="6" contenteditable="true" style="border : 0px solid transparent" class="table-success">
                                             </td>
                                             <td>
                                                 SH006
@@ -174,7 +174,7 @@
                                         </tr>
                                         <tr class="table-info">
                                             <td>
-                                                <input type="number" id="snumber" value="7" contenteditable = "true"  style ="border : 0px solid transparent" class="table-info">
+                                                <input type="number" id="snumber" value="7" contenteditable="true" style="border : 0px solid transparent" class="table-info">
                                             </td>
                                             <td>
                                                 SH001
@@ -189,10 +189,10 @@
                                                 <button>View</button>
                                             </td>
                                             <td>Print invoice </td>
-                                        </tr>    
+                                        </tr>
                                         <tr class="table-warning">
                                             <td>
-                                                <input type="number" id="snumber" value="8" contenteditable = "true"  style ="border : 0px solid transparent" class="table-warning">
+                                                <input type="number" id="snumber" value="8" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
                                             </td>
                                             <td>
                                                 SH002
@@ -204,13 +204,13 @@
                                                 3490
                                             </td>
                                             <td>
-                                                 <button>View</button>
+                                                <button>View</button>
                                             </td>
                                             <td>Print Invoice</td>
                                         </tr>
                                         <tr class="table-danger">
-                                            <td> 
-                                                <input type="number" id="snumber"value="9" contenteditable = "true" style=" border: 0px solid transparent" class="table-danger">
+                                            <td>
+                                                <input type="number" id="snumber" value="9" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
                                             </td>
                                             <td>
                                                 SH003
@@ -220,7 +220,7 @@
                                             </td>
                                             <td>7450</td>
                                             <td>
-                                            <button>View</button>
+                                                <button>View</button>
                                             </td>
                                             <td>Print invoice</td>
                                         </tr>
@@ -234,6 +234,7 @@
         </div>
     </div>
     <!-- container-scroller -->
+    
     <!-- scripts.php contains all the script tags -->
     <?php include './assets/scripts.php'; ?>
 
