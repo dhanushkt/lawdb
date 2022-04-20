@@ -40,10 +40,11 @@
                     </div>
                 </div>
                 <div class="col-lg-12 stretch-card" style="padding-top: 4%;">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="table-responsive pt-3">
-                                <table class="table table-bordered">
+                    <div class="main-panel">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="table-responsive pt-3">
+                                   <table class="table table-bordered">
                                     <thead>
                                         <tr>
                                             <th>

@@ -16,21 +16,23 @@
         <div class="container-fluid page-body-wrapper">
             <!-- sidebar.php contains partial:partials/_sidebar.html -->
             <?php include './assets/sidebar.php'; ?>
-            <div style="overflow-x: auto;">
-				<table id="myTable" style="white-space:normal; color:#03291f;">
-					<tr>
-					<div class="col-xl-4 mb-4">
-						<td><span style="color:black;font-weight:900;">Shop id:SH006</span></td>
-					<div class="col-xl-4 mb-4">
-						<td><span style="color:black;float:right;font-weight:900;">Date:10-02-2022</span></td>
-					</div>
-					</div>
-					</tr>
-					<tr>
-						<td><span style="color:black;font-weight:900;">shop name:Ice cream shop</span></td>
-						<td><span style="color:black;float:right;font-weight:900;"></span></td>
-					</tr>
-				</table>
+			<div style="overflow-x: auto;">
+			<div class="row">
+               <div class="col-xl-6 mb-4">
+			   <span style="color:black;font-weight:900;">Shop id:SH006</span>
+				</div>
+                <div class="col-xl-6 mb-4">
+					<span style="color:black;float:right;font-weight:900;">Date:10-02-2022</span>  
+                </div>
+			</div>
+			<div class="row">
+               <div class="col-xl-6 mb-4">
+			   <span style="color:black;font-weight:900;">shop name:Ice cream shop</span>
+				</div>
+                <div class="col-xl-6 mb-4">
+					<span style="color:black;float:right;font-weight:900;">Date:10-02-2022</span>  
+                </div>
+			</div>
 			</div>
 		</div>
     </div>
