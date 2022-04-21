@@ -93,7 +93,8 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice </td>
+                                                    <td>
+                                                        <button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-warning">
                                                     <td>
@@ -111,7 +112,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print Invoice</td>
+                                                    <td><button>Print Invoice</button></td>
                                                 </tr>
                                                 <tr class="table-danger">
                                                     <td>
@@ -127,7 +128,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice</td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-success">
                                                     <td>
@@ -145,7 +146,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice</td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-primary">
                                                     <td>
@@ -164,7 +165,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice</td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-success">
                                                     <td>
@@ -182,7 +183,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice</td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-info">
                                                     <td>
@@ -200,7 +201,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice </td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                                 <tr class="table-warning">
                                                     <td>
@@ -218,7 +219,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print Invoice</td>
+                                                    <td><button>Print Invoice</button></td>
                                                 </tr>
                                                 <tr class="table-danger">
                                                     <td>
@@ -234,7 +235,7 @@
                                                     <td>
                                                         <button>View</button>
                                                     </td>
-                                                    <td>Print invoice</td>
+                                                    <td><button>Print invoice</button></td>
                                                 </tr>
                                             </tbody>
                                         </table>

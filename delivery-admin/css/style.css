@@ -12442,7 +12442,7 @@ input[type="button"].btn-block {
 }
 
 .nav-link.disabled {
-  color: #6c757d;
+  color: #fff;
   pointer-events: none;
   cursor: default;
 }
@@ -20665,7 +20665,7 @@ dl li {
   align-items: center;
   white-space: nowrap;
   padding: 0.75rem 1.937rem 0.75rem 1rem;
-  color: #787878;
+  color: #fff;
   -webkit-transition-duration: 0.45s;
   -moz-transition-duration: 0.45s;
   -o-transition-duration: 0.45s;
@@ -20682,7 +20682,7 @@ dl li {
   font-size: 1rem;
   line-height: 1;
   margin-right: 1rem;
-  color: #787878;
+  color: #fff;
 }
 
 .rtl .sidebar .nav .nav-item .nav-link i.menu-icon {

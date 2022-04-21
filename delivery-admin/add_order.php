@@ -4,6 +4,7 @@
 <head>
   <!-- head.php contains css and title -->
   <?php include './assets/head.php'; ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     .autocomplete {
       /*the container must be positioned relative:*/
@@ -40,6 +41,14 @@
       background-color: DodgerBlue !important;
       color: #ffffff;
     }
+    .btn {
+  background-color: none; /* Blue background */
+  border: none; /* Remove borders */
+  color: #fff; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  }
   </style>
 </head>
 
@@ -53,153 +62,174 @@
       <!-- partial:../../partials/_sidebar.html -->
       <?php include './assets/sidebar.php'; ?>
 
-      <div class="col-12 grid-margin stretch-card">
-        <div class="card">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-xl-6 mb-4">
-                <form class="forms-sample" autocomplete="off">
-                  <div class="autocomplete" style="width: 100%;">
-                    <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Item">
-                  </div>
-                </form>
-              </div>
-              <div class="col-xl-6 mb-4">
-                <form class="forms-sample" autocomplete="off">
-                  <div class="autocomplete" style="width: 100%;">
-                    <input class="form-control" id="myInput2" type="text" name="myCountry" placeholder="Select Item">
-                  </div>
-                </form>
-              </div>
-            </div>
-            <form class="forms-sample">
-              <div class="row">
-                <div class="col-xl-3 mb-3">
-                  <input type="text" class="form-control" id="Inputname" placeholder="Item Name">
-                </div>
-                <div class="col-xl-3 mb-3">
-                  <input type="number" class="form-control" id="Inputprice" placeholder="Item Price">
-                </div>
-                <div class="col-xl-3 mb-3">
-                  <input type="number" class="form-control" id="Inputqty" placeholder="Item Qty">
-                </div>
-                <div class="col-sm-3" style="margin-top: 0%">
-                  <button type="add" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Add</button>
-                </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-12 stretch-card" style="padding-top: 5%;">
-          <div class="main-panel">
+      <div class="main-panel">
+        <div class="content-wrapper">
+          
+
+          <div class="col-12 grid-margin stretch-card">
             <div class="card">
               <div class="card-body">
-                <div class="table-responsive pt-3">
-                  <table class="table table-bordered">
-                  <thead>
-                    <tr>
-                      <th>
-                        #
-                      </th>
-                      <th>
-                        Item name
-                      </th>
-                      <th>
-                        Price
-                      </th>
-                      <th>
-                        Qty
-                      </th>
-                      <th>
-                        Total
-                      </th>
-                      <th>
+                <div class="row">
+                  <div class="col-xl-3 mb-3">
+                    <input type="date" class="form-control">
+                  </div>
+                  <div class="col-xl-3 mb-3">
+                    <form class="forms-sample" autocomplete="off">
+                      <div class="autocomplete" style="width: 100%;">
+                      <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
+                      </div>
+                      <div class="col-xl-3 mb-3">
+                      <button type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-xl-5 col-sm-12 col-12 mb-5">
+                    <p>Shop Name: xyz bakery</p>
+                    <p>Date: 19-04-2022</p>
+                  </div>
+                  <div class="col-xl-12 mb-12">
+                    <hr style="border:1px solid black;">
+                  <br>  
+                  </div>
+                </div>  
+                  <div class="row">
+                    <div class="col-xl-3 mb-3">
+                      <form class="forms-sample" autocomplete="off">
+                        <div class="autocomplete" style="width: 100%;">
+                        <input class="form-control" id="myInput2" type="text" name="myCountry" placeholder="Select Item">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <form class="forms-sample">
+                    <div class="row">
+                      <div class="col-xl-3 mb-3">
+                      <input type="text" class="form-control" id="Inputname" placeholder="Item Name">
+                      </div>
+                      <div class="col-xl-3 mb-3">
+                      <input type="number" class="form-control" id="Inputprice" placeholder="Item Price">
+                      </div>
+                      <div class="col-xl-3 mb-3">
+                      <input type="number" class="form-control" id="Inputqty" placeholder="Item Qty">
+                      </div>
+                      <div class="col-xl-3 mb-3" style="margin-top: 0%">
+                      <button type="add" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Add</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>   
+                <div class="row">  
+                  <div class="col-xl-12 stretch-card" style="padding-top: 4%;"> 
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="table-responsive pt-3">
+                          <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th>
+                                 #
+                                </th>
+                                <th>
+                                  Item name
+                                </th>
+                                <th>
+                                 Price
+                                </th>
+                                <th>
+                                  Qty
+                                </th>
+                                <th>
+                                  Total
+                                </th>
+                                <th></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="table-info">
+                                <td>
+                                 <input type="number" id="snumber" value="1" contenteditable="true" style=" border: 0px solid transparent" class="table-info">
+                                </td>
+                                <td>
+                                  Cup Ice Cream Big
+                                </td>
+                                <td>
+                                  15
+                                </td>
+                                <td>
+                                 20
+                                </td>
+                                <td>
+                                 300
+                                </td>
+                                <td>
+                                  <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                                </td>
+                              </tr>
+                              <tr class="table-warning">
+                              <td>
+                              <input type="number" id="snumber" value="2" contenteditable="true" style=" border: 0px solid transparent" class="table-warning">
+                              </td>
+                              <td>
+                                Cup Ice Cream Small
+                              </td>
+                              <td>
+                                10
+                              </td>
+                              <td>
+                                25
+                              </td>
+                              <td>
+                               250
+                              </td>
+                              <td>
+                              <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                              </td>
+                             </tr>
+                            <tr class="table-danger">
+                              <td>
+                              <input type="text" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                              </td>
+                              <td>
+                                Cone Ice Cream
+                              </td>
+                              <td>
+                                25
+                              </td>
+                              <td>
+                                10
+                              </td>
+                              <td>
+                                250
+                              </td>
+                              <td>
+                              <button class="btn" ><i class="fa fa-close"></i></button>
+                              </td>
+                            </tr>
+                            <tr class="table-success">
+                              <td>
+                                Total
+                              </td>
+                              <td></td>
+                              <td></td>
+                              <td>
+                                800
+                              </td>
+                              <td>
 
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="table-info">
-                      <td>
-                        <input type="number" id="snumber" value="1" contenteditable="true" style=" border: 0px solid transparent" class="table-info">
-                      </td>
-                      <td>
-                        Cup Ice Cream Big
-                      </td>
-                      <td>
-                        15
-                      </td>
-                      <td>
-                        20
-                      </td>
-                      <td>
-                        300
-                      </td>
-                      <td>
-                        <div style="color:red;">X</div>
-                      </td>
-                    </tr>
-                    <tr class="table-warning">
-                      <td>
-                        <input type="number" id="snumber" value="2" contenteditable="true" style=" border: 0px solid transparent" class="table-warning">
-                      </td>
-                      <td>
-                        Cup Ice Cream Small
-                      </td>
-                      <td>
-                        10
-                      </td>
-                      <td>
-                        25
-                      </td>
-                      <td>
-                        250
-                      </td>
-                      <td>
-                        <div style="color:red;">X</div>
-                      </td>
-                    </tr>
-                    <tr class="table-danger">
-                      <td>
-                        <input type="text" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
-                      </td>
-                      <td>
-                        Cone Ice Cream
-                      </td>
-                      <td>
-                        25
-                      </td>
-                      <td>
-                        10
-                      </td>
-                      <td>
-                        250
-                      </td>
-                      <td>
-                        <div style="color:red;">X</div>
-                      </td>
-                    </tr>
-                    <tr class="table-success">
-                      <td>
-                        Total
-                      </td>
-                      <td></td>
-                      <td></td>
-                      <td>
-                        800
-                      </td>
-                      <td>
-
-                      </td>
-                      <td> </td>
-                    </tr>
-                  </tbody>
-                </table>
+                              </td>
+                              <td> </td>
+                            </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
-    </div>
   </div>
   <!-- </div> -->
   <!-- content-wrapper ends -->

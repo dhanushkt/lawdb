@@ -44,8 +44,8 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="delivered.php">
-                <span class="menu-title">Delivered Shops</span>
+            <a class="nav-link" href="items_delivered.php">
+                <span class="menu-title">items Delivered</span>
             </a>
         </li>
         <li class="nav-item">
