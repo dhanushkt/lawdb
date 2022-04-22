@@ -55,7 +55,7 @@
                     <div class="table-responsive pt-3">
                       <table class="table table-bordered">
                         <thead>
-                          <tr>
+                          <tr style="background-color: rgb(151, 55, 0);">
                             <th>
                               Sl.No
                             </th>
@@ -71,9 +71,9 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr class="table-info">
+                          <tr>
                             <td>
-                              <input type="text" id="number" value="1" contenteditable = "true" style = "border: 0px solid transparent" class="table-info">
+                              1
                             </td>
                             <td>
                               P001
@@ -85,9 +85,9 @@
                               10
                             </td>
                           </tr>
-                          <tr class="table-warning">
+                          <tr>
                             <td>
-                              <input type="text" id="number" value="2" contenteditable = "true" style =" border: 0px solid transparent" class="table-warning">
+                              2
                             </td>
                             <td>
                               P002
@@ -99,9 +99,9 @@
                               30
                             </td>
                           </tr>
-                          <tr class="table-danger">
+                          <tr>
                             <td>
-                              <input type="number" id="snumber" value="3" contenteditable = "true"  style = "border: 0px solid transparent" class="table-danger">
+                              3
                             </td>
                             <td>
                               P003
@@ -113,9 +113,9 @@
                               40
                             </td>
                           </tr>
-                          <tr class="table-success">
+                          <tr>
                             <td>
-                              <input type="number" id="snumber" value="4" contenteditable = "true"  style="border: 0px solid transparent"  class="table-success">
+                              4
                             </td>
                             <td>
                               P004
@@ -127,9 +127,9 @@
                               25
                             </td>
                           </tr>
-                          <tr class="table-primary">
+                          <tr>
                             <td>
-                              <input type="number" id="snumber" value="5" contenteditable = "true"  style="border: 0px solid transparent" class="table-primary">
+                              5
                             </td>
                             <td>
                               P005

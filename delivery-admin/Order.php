@@ -4,7 +4,18 @@
 <head>
     <!-- head.php contains css and title -->
     <?php include './assets/head.php'; ?>
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .btn {
+  background-color: none; /* Blue background */
+  border: none; /* Remove borders */
+  color: #fff; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  }
+  </style>
+ </head>
 
 <body>
   <div class="container-scroller">
@@ -59,7 +70,7 @@
                   <div class="table-responsive pt-3">
                     <table class="table table-bordered">
                       <thead>
-                        <tr>
+                        <tr style="background-color: rgb(151, 55, 0);">
                           <th> 
                             Sl.No
                           </th>
@@ -80,9 +91,9 @@
                         </tr>
                       </thead>
                       <tbody>
-                        <tr class="table-info">
+                        <tr>
                           <td>
-                            <input type="number" id="snumber" value="1" contenteditable = "true"  style="border: 0px solid transparent" class="table-info" >
+                            1
                           </td>
                           <td>
                             E001
@@ -97,12 +108,12 @@
                             123
                           </td>
                           <td>
-                            <div style="color:red;">X</div>
+                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
-                        <tr class="table-warning">
+                        <tr>
                           <td>
-                            <input type="number" id="snumber" value="2" contenteditable = "true"  style=" border : 0px solid transparent" class="table-warning">
+                            2
                           </td>
                           <td>
                             E002
@@ -117,12 +128,12 @@
                             123
                           </td>
                           <td>
-                            <div style="color:red;">X</div>
+                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
-                        <tr class="table-danger">
+                        <tr>
                           <td>
-                            <input type="text" id="number" value="3" contenteditable = "true" style=" border: 0px solid transparent" class="table-danger">
+                            3
                           </td>
                           <td>
                             E003
@@ -137,12 +148,12 @@
                             123
                           </td>
                           <td>
-                            <div style="color:red;">X</div>
+                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
-                        <tr class="table-success">
+                        <tr>
                           <td>
-                            <input type="number" id="snumber" value="4" contenteditable = "true"  style=" border: 0px solid transparent" class="table-success">
+                            4
                           </td>
                           <td>
                             E004
@@ -157,12 +168,12 @@
                             123
                           </td>
                           <td>
-                            <div style="color:red;">X</div>
+                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
-                        <tr class="table-primary">
+                        <tr>
                           <td>
-                            <input type="number" id="snumber" value="5" contenteditable = "true" style=" border: 0px solid transparent" class="table-primary">
+                            5
                           </td>
                           <td>
                             E005
@@ -177,7 +188,7 @@
                             123
                           </td>
                           <td>
-                            <div style="color:red;">X</div>
+                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                       </tbody>

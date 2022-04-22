@@ -44,7 +44,7 @@
                                     <div class="table-responsive pt-3">
                                         <table class="table table-bordered">
                                             <thead>
-                                                <tr>
+                                                <tr style="background-color: rgb(151, 55, 0);">
                                                     <th>
                                                         #
                                                     </th>
@@ -66,76 +66,85 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="table-info">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="1" contenteditable="true" style="border : 0px solid transparent" class="table-info">
+                                                       1
                                                     </td>
                                                     <td>
-                                                        SH001
+                                                        Cup Ice Cream Big
                                                     </td>
                                                     <td>
-                                                        Malavika Ice Cream
+                                                        15
                                                     </td>
                                                     <td>
-                                                        Perla
+                                                        20
+                                                    </td>
+                                                    <td>
+                                                        300
+                                                    </td>
+                                                    <td>
+                                                        Delivered
                                                     </td>
                                                 </tr>
-                                                <tr class="table-warning">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="2" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
+                                                      2
                                                     </td>
                                                     <td>
-                                                        SH002
+                                                        Cup Ice Cream Small
                                                     </td>
                                                     <td>
-                                                        Badiyadka Bakery
+                                                        10
                                                     </td>
                                                     <td>
-                                                        Badiyadka
+                                                        25
+                                                    </td>
+                                                    <td>
+                                                        250
+                                                    </td>
+                                                    <td>
+                                                        Delivered
                                                     </td>
                                                 </tr>
-                                                <tr class="table-danger">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                                                       3
                                                     </td>
                                                     <td>
-                                                        SH003
+                                                        Cone Ice Cream
                                                     </td>
                                                     <td>
-                                                        Ayyangar Sweets
+                                                        25
                                                     </td>
-                                                    <td>Perla
+                                                    <td>
+                                                        10
+                                                    </td>
+                                                    <td>
+                                                        250
+                                                    </td>
+                                                    <td>
+                                                        Not Delivered
                                                     </td>
                                                 </tr>
-                                                <tr class="table-success">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="4" contenteditable="true" style="border : 0px solid transparent" class="table-success">
+                                                       Total
                                                     </td>
                                                     <td>
-                                                        SH004
+                                                        
                                                     </td>
                                                     <td>
-                                                        AZ Bakery
+                                                        
                                                     </td>
                                                     <td>
-                                                        Perla
-                                                    </td>
-                                                </tr>
-                                                <tr class="table-primary">
-                                                    <td>
-                                                        <input type="number" id="snumber" value="5" contenteditable="true" style="border : 0px solid transparent" class="table-primary">
-
+                                                        
                                                     </td>
                                                     <td>
-                                                        SH005
+                                                        800
                                                     </td>
                                                     <td>
-                                                        Sweet Shop
-                                                    </td>
-                                                    <td>
-                                                        Perla
-                                                    </td>
-                                                    
+                                                        
+                                                    </td>   
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -149,7 +158,7 @@
             </div>
         </div>
     </div>
-    </div>
+    
 </body>
 
 </html>

@@ -57,7 +57,7 @@
                                     <div class="table-responsive pt-3">
                                         <table class="table table-bordered">
                                             <thead>
-                                                <tr>
+                                                <tr style="background-color: rgb(151, 55, 0);">
                                                     <th>
                                                         Sl.No
                                                     </th>
@@ -77,9 +77,9 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="table-info">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="1" contenteditable="true" style="border : 0px solid transparent" class="table-info">
+                                                        <input type="number" id="snumber" value="1">
                                                     </td>
                                                     <td>
                                                         SH001
@@ -96,9 +96,9 @@
                                                     <td>
                                                         <button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-warning">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="2" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
+                                                        <input type="number" id="snumber" value="2">
                                                     </td>
                                                     <td>
                                                         SH002
@@ -114,9 +114,9 @@
                                                     </td>
                                                     <td><button>Print Invoice</button></td>
                                                 </tr>
-                                                <tr class="table-danger">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                                                        <input type="number" id="snumber" value="3">
                                                     </td>
                                                     <td>
                                                         SH003
@@ -130,9 +130,9 @@
                                                     </td>
                                                     <td><button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-success">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="4" contenteditable="true" style="border : 0px solid transparent" class="table-success">
+                                                        <input type="number" id="snumber" value="4">
                                                     </td>
                                                     <td>
                                                         SH004
@@ -148,9 +148,9 @@
                                                     </td>
                                                     <td><button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-primary">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="5" contenteditable="true" style="border : 0px solid transparent" class="table-primary">
+                                                        <input type="number" id="snumber" value="5">
 
                                                     </td>
                                                     <td>
@@ -167,9 +167,9 @@
                                                     </td>
                                                     <td><button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-success">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="6" contenteditable="true" style="border : 0px solid transparent" class="table-success">
+                                                        <input type="number" id="snumber" value="6">
                                                     </td>
                                                     <td>
                                                         SH006
@@ -185,9 +185,9 @@
                                                     </td>
                                                     <td><button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-info">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="7" contenteditable="true" style="border : 0px solid transparent" class="table-info">
+                                                        <input type="number" id="snumber" value="7">
                                                     </td>
                                                     <td>
                                                         SH001
@@ -203,9 +203,9 @@
                                                     </td>
                                                     <td><button>Print invoice</button></td>
                                                 </tr>
-                                                <tr class="table-warning">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="8" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
+                                                        <input type="number" id="snumber" value="8">
                                                     </td>
                                                     <td>
                                                         SH002
@@ -221,9 +221,9 @@
                                                     </td>
                                                     <td><button>Print Invoice</button></td>
                                                 </tr>
-                                                <tr class="table-danger">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="9" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                                                        <input type="number" id="snumber" value="9">
                                                     </td>
                                                     <td>
                                                         SH003

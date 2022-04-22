@@ -25,19 +25,27 @@
                                 <div class="card-body">
                                     <form class="forms-sample">
                                         <div class="row">
-                                            <div class="col-xl-3 mb-3">
+                                            <div class="col-xl-2 mb-2">
                                             <label for="Inputid">Shop id</label>
                                             <input type="number" class="form-control" id="Inputid">
                                             </div>
-                                            <div class="col-xl-3 mb-3">
+                                            <div class="col-xl-2 mb-2">
                                             <label for="Inputname">Shop Name</label>
                                             <input type="text" class="form-control" id="Inputname">
                                             </div>
-                                            <div class="col-xl-3 mb-3">
+                                            <div class="col-xl-2 mb-2">
+                                            <label for="Inputaddress">Address</Address></label>
+                                            <input type="text" class="form-control" id="address">
+                                            </div>
+                                            <div class="col-xl-2 mb-2">
                                             <label for="Inputlocation">Location</label>
                                             <input type="text" class="form-control" id="Inputlocation">
                                             </div>
-                                            <div class="col-sm-3" style="margin-top: 2%" ;>
+                                            <div class="col-xl-2 mb-2">
+                                            <label for="Inputnumber">Phone Number</label>
+                                            <input type="text" class="form-control" id="Inputnumber">
+                                            </div>
+                                            <div class="col-sm-2" style="margin-top: 2%" ;>
                                             <button type="save" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Save</button>
                                             </div>
                                         </div>
@@ -55,7 +63,7 @@
                                     <div class="table-responsive pt-3">
                                         <table class="table table-bordered">
                                             <thead>
-                                                <tr>
+                                                <tr style="background-color: rgb(151, 55, 0);">
                                                     <th>
                                                         Sl.No
                                                     </th>
@@ -71,9 +79,9 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="table-info">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="1" contenteditable="true" style="border : 0px solid transparent" class="table-info">
+                                                     1
                                                     </td>
                                                     <td>
                                                         SH001
@@ -85,9 +93,9 @@
                                                         Perla
                                                     </td>
                                                 </tr>
-                                                <tr class="table-warning">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="2" contenteditable="true" style="border : 0px solid transparent" class="table-warning">
+                                                     2
                                                     </td>
                                                     <td>
                                                         SH002
@@ -99,9 +107,9 @@
                                                         Badiyadka
                                                     </td>
                                                 </tr>
-                                                <tr class="table-danger">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                                                     3
                                                     </td>
                                                     <td>
                                                         SH003
@@ -112,9 +120,9 @@
                                                     <td>Perla
                                                     </td>
                                                 </tr>
-                                                <tr class="table-success">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="4" contenteditable="true" style="border : 0px solid transparent" class="table-success">
+                                                     4
                                                     </td>
                                                     <td>
                                                         SH004
@@ -126,10 +134,9 @@
                                                         Perla
                                                     </td>
                                                 </tr>
-                                                <tr class="table-primary">
+                                                <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="5" contenteditable="true" style="border : 0px solid transparent" class="table-primary">
-
+                                                     5
                                                     </td>
                                                     <td>
                                                         SH005

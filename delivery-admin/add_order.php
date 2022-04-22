@@ -64,34 +64,34 @@
 
       <div class="main-panel">
         <div class="content-wrapper">
-          
+          <div class="row">
 
-          <div class="col-12 grid-margin stretch-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-xl-3 mb-3">
+            <div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-xl-3 mb-3">
                     <input type="date" class="form-control">
-                  </div>
-                  <div class="col-xl-3 mb-3">
-                    <form class="forms-sample" autocomplete="off">
-                      <div class="autocomplete" style="width: 100%;">
-                      <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
-                      </div>
-                      <div class="col-xl-3 mb-3">
-                      <button type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="col-xl-5 col-sm-12 col-12 mb-5">
+                    </div>
+                    <div class="col-xl-3 mb-3">
+                      <form class="forms-sample" autocomplete="off">
+                        <div class="autocomplete" style="width: 100%;">
+                        <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-xl-3 mb-3">
+                    <button type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
+                    </div>
+                    <div class="col-xl-3 col-sm-12 col-12 mb-3">
                     <p>Shop Name: xyz bakery</p>
                     <p>Date: 19-04-2022</p>
+                    </div>
                   </div>
                   <div class="col-xl-12 mb-12">
                     <hr style="border:1px solid black;">
                   <br>  
-                  </div>
-                </div>  
+                  </div>  
                   <div class="row">
                     <div class="col-xl-3 mb-3">
                       <form class="forms-sample" autocomplete="off">
@@ -125,7 +125,7 @@
                         <div class="table-responsive pt-3">
                           <table class="table table-bordered">
                             <thead>
-                              <tr>
+                              <tr style="background-color: rgb(151, 55, 0);">
                                 <th>
                                  #
                                 </th>
@@ -145,9 +145,9 @@
                               </tr>
                             </thead>
                             <tbody>
-                              <tr class="table-info">
+                              <tr>
                                 <td>
-                                 <input type="number" id="snumber" value="1" contenteditable="true" style=" border: 0px solid transparent" class="table-info">
+                                 1
                                 </td>
                                 <td>
                                   Cup Ice Cream Big
@@ -165,9 +165,9 @@
                                   <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                                 </td>
                               </tr>
-                              <tr class="table-warning">
+                              <tr>
                               <td>
-                              <input type="number" id="snumber" value="2" contenteditable="true" style=" border: 0px solid transparent" class="table-warning">
+                                2
                               </td>
                               <td>
                                 Cup Ice Cream Small
@@ -185,9 +185,9 @@
                               <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                               </td>
                              </tr>
-                            <tr class="table-danger">
+                            <tr>
                               <td>
-                              <input type="text" id="snumber" value="3" contenteditable="true" style=" border: 0px solid transparent" class="table-danger">
+                                3
                               </td>
                               <td>
                                 Cone Ice Cream
@@ -202,10 +202,10 @@
                                 250
                               </td>
                               <td>
-                              <button class="btn" ><i class="fa fa-close"></i></button>
+                              <button class="btn" style="color:red" ><i class="fa fa-close"></i></button>
                               </td>
                             </tr>
-                            <tr class="table-success">
+                            <tr>
                               <td>
                                 Total
                               </td>
