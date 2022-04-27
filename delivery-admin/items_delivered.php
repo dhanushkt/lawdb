@@ -35,13 +35,6 @@
                                             <button type="search" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Search</button>
                                             </div>
                                         </div>   
-                                        <div class="row">
-                                            <div class="col-xl-12">
-                                                <div style="display:flex; align-items:center; justify-content:center;">
-                                                 <button>Freeze Data</button>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </form>
                                 </div>
                             </div>
@@ -52,6 +45,13 @@
                              <div class="card">
                                 <div class="card-body">
                                     <div class="table-responsive pt-3">
+                                    <div class="row">
+                                            <div class="col-xl-12">
+                                                <div style="display:flex; align-items:right; justify-content:right;">
+                                                <button>Freeze Data</button>
+                                                </div>
+                                            </div>
+                                    </div>
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr style="background-color: rgb(151, 55, 0);">
