@@ -20,21 +20,26 @@
             <div class="main-panel">
                 <div class="content-wrapper">
                     <!-- <div style="overflow-x: auto; width: 100%;"> -->
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-6 col-6">
-                            <span style="color: black; font-weight: 900;">Shop id:SH006</span>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-6">
+                                    <span style="color: black; font-weight: 900;">Shop id:SH006</span>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-6">
+                                    <span style="color:black; float:right; font-weight:900;">Date:10-02-2022</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-6">
+                                    <span style="color:black;font-weight:900;">shop name:Ice cream shop</span>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-6">
+                                    <button style="color:black; float:right; font-weight:900;">Freeze Data</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-sm-6 col-6">
-                            <span style="color:black; float:right; font-weight:900;">Date:10-02-2022</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div  class="col-lg-6 col-sm-6 col-6">
-                            <span style="color:black;font-weight:900;">shop name:Ice cream shop</span>
-                        </div>
-                        <div  class="col-lg-6 col-sm-6 col-6">
-                            <button style="color:black; float:right; font-weight:900;">Freeze Data</button>
-                        </div>
+
                     </div>
                     <div class="row">
                         <div class="col-xl-12 stretch-card" style="padding-top: 4%;">
@@ -58,7 +63,7 @@
                                                         Qty
                                                     </th>
                                                     <th>
-                                                        Total 
+                                                        Total
                                                     </th>
                                                     <th>
                                                         Status
@@ -68,7 +73,7 @@
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                       1
+                                                        1
                                                     </td>
                                                     <td>
                                                         Cup Ice Cream Big
@@ -88,7 +93,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                      2
+                                                        2
                                                     </td>
                                                     <td>
                                                         Cup Ice Cream Small
@@ -108,7 +113,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                       3
+                                                        3
                                                     </td>
                                                     <td>
                                                         Cone Ice Cream
@@ -128,23 +133,23 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                       Total
+                                                        Total
                                                     </td>
                                                     <td>
-                                                        
+
                                                     </td>
                                                     <td>
-                                                        
+
                                                     </td>
                                                     <td>
-                                                        
+
                                                     </td>
                                                     <td>
                                                         800
                                                     </td>
                                                     <td>
-                                                        
-                                                    </td>   
+
+                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -158,7 +163,7 @@
             </div>
         </div>
     </div>
-    
+
 </body>
 
 </html>
