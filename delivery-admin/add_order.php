@@ -362,8 +362,8 @@
         }
 
         /*An array containing all the country names in the world:*/
-        var items_1 = ["Ice cream", "Potato Chips", "Pizza"];
-        var items_2 = ["Ice cream 2", "Potato Chips 2", "Pizza 2"];
+        var items_1 = ["Cup ice cream small", "Chips", "Potato Chips", "Cone ice cream", "Cone ice cream Big"];
+        var items_2 = ["Malavika ice cream", "Badiyadka Bakery", "Ayyangar sweets", "AZ Bakery", "Sweet shop"];
 
         /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
         autocomplete(document.getElementById("myInput"), items_1);

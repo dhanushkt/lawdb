@@ -24,17 +24,17 @@
                             <div class="card">
                                 <div class="card-body">
                                     <div class="row"> 
-                                        <div class="col-xl-3 mb-3">
+                                        <div class="col-xl-4 mb-4">
                                             <input type="date" class="form-control">
                                         </div>
-                                        <div class="col-xl-3 mb-3">
+                                        <div class="col-xl-4 mb-4">
                                             <form class="forms-sample" autocomplete="off">
                                                 <div class="autocomplete" style="width: 100%;">
                                                     <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select location">
                                                 </div>
                                             </form>
                                         </div> 
-                                        <div class="col-xl-3 mb-3">
+                                        <div class="col-xl-4 mb-4">
                                             <button type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
                                         </div>
                                     </div>    
