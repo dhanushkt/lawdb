@@ -69,7 +69,7 @@
                                                     </th>
                                                     <th>
                                                         Shop ID
-                                                    </th>
+                                                    </th>   
                                                     <th>
                                                         Shop Name
                                                     </th>

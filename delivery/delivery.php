@@ -38,9 +38,9 @@
 			  padding-top: 5px;
 			  padding-bottom: 5px;
 			}
-			tr{
+			/* tr{
 				 
-			}
+			} */
 			#tbox:hover{
 				border:1px solid #03291f;
 			}
@@ -266,7 +266,7 @@
 						  
 						</tr>
 						<tr style="box-shadow: 0px 0.5px 1px black;">
-						  <td><a href="edit.php" class="button2" style="">Edit</a></td>
+						  <td><a href="edit.php" class="button2">Edit</a></td>
 						  <td>8.</td>
 						  <td>S008</td>
 						  <td>Sweet Bakery</td>

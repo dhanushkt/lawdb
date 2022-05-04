@@ -87,7 +87,7 @@
                                                     2500
                                                 </td>
                                                 <td>
-                                                <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                             <tr>

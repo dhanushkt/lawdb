@@ -4,8 +4,14 @@
 <head>
     <!-- head.php contains css and title -->
     <?php include './assets/head.php'; ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        td {
+            border: none !important;
+        }
+    </style>
 </head>
+
 
 <body>
     <div class="container-scroller">
@@ -17,44 +23,64 @@
         <div class="container-fluid page-body-wrapper">
             <!-- sidebar.php contains partial:partials/_sidebar.html -->
             <?php include './assets/sidebar.php'; ?>
+
             <div class="main-panel">
                 <div class="content-wrapper">
-                    <!-- <div style="overflow-x: auto; width: 100%;"> -->
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                    <span style="color: black; font-weight: 900;">Shop id:SH006</span>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                    <span style="color:black; float:right; font-weight:900;">Date:10-02-2022</span>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                    <span style="color:black;font-weight:900;">shop name:Ice cream shop</span>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-6">
-                                    <button style="color:black; float:right; font-weight:900;">Freeze Data</button>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
                     <div class="row">
                         <div class="col-xl-12 stretch-card" style="padding-top: 4%;">
 
                             <div class="card">
                                 <div class="card-body">
-                                    <div class="table-responsive pt-3">
-                                        <table class="table table-bordered">
+                                    <div class=" pt-3">
+                                        <!-- table-responsive -->
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <h3>Skanda Sales</h3>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <p style="float:right;">#20-12, market road<br>
+                                                    Near badiyadka Bus stand<br>Badyadka kerala</p>
+                                            </div>
+                                            <div class="col-xl-12">
+                                                <hr style="border:1px solid black;">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;font-weight:900;">shop no: S001</span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;float:right;font-weight:900;">Invoice # : 1</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;font-weight:900;">shop Name : Sweet bakery</span>
+                                            </div>
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;float:right;font-weight:900;">Date : 12-03-2022</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;font-weight:900;">Phone No : 9854132510</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6 col-sm-6 col-6">
+                                                <span style="color:black;font-weight:900;">location : Badiyadka</span>
+                                            </div>
+                                            </table>
+                                        </div>
+                                        <table class="table">
                                             <thead>
-                                                <tr style="background-color: rgb(151, 55, 0);">
+                                                <tr style="background-color: rgb(128,128,128);">
                                                     <th>
                                                         #
                                                     </th>
                                                     <th>
-                                                        Item Name
+                                                        Item name
                                                     </th>
                                                     <th>
                                                         Price
@@ -65,13 +91,10 @@
                                                     <th>
                                                         Total
                                                     </th>
-                                                    <th>
-                                                        Status
-                                                    </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr  style="background-color: rgb(0, 102, 0);">
+                                                <tr>
                                                     <td>
                                                         1
                                                     </td>
@@ -87,11 +110,9 @@
                                                     <td>
                                                         300
                                                     </td>
-                                                    <td>
-                                                        Delivered
-                                                    </td>
+
                                                 </tr>
-                                                <tr style="background-color: rgb(0, 102, 0);">
+                                                <tr>
                                                     <td>
                                                         2
                                                     </td>
@@ -107,11 +128,9 @@
                                                     <td>
                                                         250
                                                     </td>
-                                                    <td>
-                                                        Delivered
-                                                    </td>
+
                                                 </tr>
-                                                <tr style="background-color: rgb(204, 0, 0);">
+                                                <tr>
                                                     <td>
                                                         3
                                                     </td>
@@ -127,29 +146,19 @@
                                                     <td>
                                                         250
                                                     </td>
-                                                    <td>
-                                                        Not Delivered
-                                                    </td>
+
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        Total
+                                                        Grand Total
                                                     </td>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>
-
-                                                    </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
                                                     <td>
                                                         800
                                                     </td>
-                                                    <td>
 
-                                                    </td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -158,11 +167,15 @@
                             </div>
                         </div>
                     </div>
-                    <!-- </div> -->
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- container-scroller -->
+
+    <!-- scripts.php contains all the script tags -->
+    <?php include './assets/scripts.php'; ?>
 
 </body>
 

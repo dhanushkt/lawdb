@@ -40,7 +40,7 @@
 			padding-bottom: 5px;
 		}
 
-		tr {}
+		/* tr {} */
 
 		#tbox:hover {
 			border: 1px solid #03291f;

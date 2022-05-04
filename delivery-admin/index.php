@@ -14,7 +14,6 @@
           <div class="col-lg-6 d-flex align-items-center justify-content-center">
             <div class="auth-form-transparent text-left p-3">
               <h4>Welcome back!</h4>
-              <h6 class="font-weight-light">Happy to see you again!</h6>
               <form class="pt-3">
                 <div class="form-group">
                   <label for="exampleInputEmail">Username</label>
@@ -65,7 +64,7 @@
             </div>
           </div>
           <div class="col-lg-6 login-half-bg d-flex flex-row">
-            <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2018  All rights reserved.</p>
+            <p class="text-white font-weight-medium text-center flex-grow align-self-end">Copyright &copy; 2022  All rights reserved.</p>
           </div>
         </div>
       </div>

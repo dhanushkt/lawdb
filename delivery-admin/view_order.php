@@ -27,10 +27,10 @@
                                     <form class="forms-sample">
                                         <div class="row">
                                             <div class="col-xl-5 mb-4">
-                                                <input type="number" class="form-control" id="Inputid" placeholder="Select Location">
+                                                <input type="text" class="form-control" id="Inputid" placeholder="Select Location">
                                             </div>
                                             <div class="col-xl-5 mb-4">
-                                                <input type="text" class="form-control" id="Inputname" placeholder="Select Date">
+                                            <input type="date" class="form-control">
                                             </div>
                                             <div class="col-xl-2" style="margin-bottom: 2%;">
                                                 <button type="search" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px;">Search</button>

@@ -37,11 +37,6 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="view.php">
-                <span class="menu-title">view</span>
-            </a>
-        </li>
-        <li class="nav-item">
             <a class="nav-link" href="deliveryitems.php">
                 <span class="menu-title">delivered items</span>
             </a>
