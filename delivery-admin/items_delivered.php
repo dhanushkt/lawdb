@@ -104,7 +104,7 @@
                                                     12900
                                                 </td>
                                                 <td>
-                                                    <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -119,7 +119,7 @@
                                                 </td>
                                                 <td>5900</td>
                                                 <td>
-                                                <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -136,7 +136,7 @@
                                                     4750
                                                 </td>
                                                 <td>
-                                                    <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                              <tr>
@@ -153,7 +153,7 @@
                                                     2300
                                                 </td>
                                                 <td>
-                                                <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                             <tr>
@@ -170,7 +170,7 @@
                                                     7800
                                                 </td>
                                                 <td>
-                                                <button>View</button>
+                                                <a href="view.php"><button>View</button></a>
                                                 </td>
                                             </tr>
                                             <tr class="table-info">
@@ -187,7 +187,7 @@
                                                 1275
                                             </td>
                                             <td>
-                                                <button>View</button>
+                                            <a href="view.php"><button>View</button></a>
                                             </td>
                                             </tr>    
                                             <tr>
@@ -204,7 +204,7 @@
                                                 3490
                                             </td>
                                             <td>
-                                                 <button>View</button>
+                                            <a href="view.php"><button>View</button></a>
                                             </td>
                                             </tr>
                                             <tr>
@@ -219,7 +219,7 @@
                                             </td>
                                             <td>7450</td>
                                             <td>
-                                            <button>View</button>
+                                            <a href="view.php"><button>View</button></a>
                                             </tr>
                                             </tbody>
                                         </table>

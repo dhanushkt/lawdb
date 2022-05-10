@@ -158,10 +158,10 @@
                                                     <td>
                                                         800
                                                     </td>
-
                                                 </tr>
                                             </tbody>
                                         </table>
+                                        <textarea rows="4" cols="100" placeholder="note"></textarea>
                                     </div>
                                 </div>
                             </div>

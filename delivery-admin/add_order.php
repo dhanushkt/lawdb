@@ -219,18 +219,10 @@
                                   </td>
                                 </tr>
                                 <tr>
-                                  <td>
+                                  <td colspan="2">
                                     Total
                                   </td>
-                                  <td></td>
-                                  <td></td>
-                                  <td>
-                                    800
-                                  </td>
-                                  <td>
-
-                                  </td>
-                                  <td> </td>
+                                  <td colspan="4">800</td>
                                 </tr>
                               </tbody>
                             </table>
