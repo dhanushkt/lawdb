@@ -51,7 +51,7 @@
                                                 <span style="color:black;font-weight:900;">shop no: S001</span>
                                             </div>
                                             <div class="col-lg-6 col-sm-6 col-6">
-                                                <span style="color:black;float:right;font-weight:900;">Invoice # : 1</span>
+                                                <span style="color:black;float:left;font-weight:900;">Invoice # : 1</span>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -59,7 +59,7 @@
                                                 <span style="color:black;font-weight:900;">shop Name : Sweet bakery</span>
                                             </div>
                                             <div class="col-lg-6 col-sm-6 col-6">
-                                                <span style="color:black;float:right;font-weight:900;">Date : 12-03-2022</span>
+                                                <span style="color:black;float:left;font-weight:900;">Date : 12-03-2022</span>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -161,7 +161,9 @@
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <textarea rows="4" cols="100" placeholder="note"></textarea>
+                                        <label>Note:</label>
+                                        <p> note note note note</p>
+                                        <button style="color:black; float:right; font-weight:900;">Print</button>
                                     </div>
                                 </div>
                             </div>

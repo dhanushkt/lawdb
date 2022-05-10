@@ -1,27 +1,85 @@
+<?php
+if (isset($_POST['add'])) {
+  error_reporting(-1);
+  include("./access/config.php");
+
+  $Email = $_POST['email'];
+
+  $sql = "select * from add_employee where email='$Email'";
+  $result = mysqli_query($con, $sql);
+  $count = mysqlI_num_rows($result);
+
+
+  if ($count > 0) {
+
+    echo "<script>
+				alert('There is an existing account associated with this email.');
+			</script>";
+    //echo "<script> location.href='order.php'; </script>";
+  } else {
+
+    $Empid = $_POST['emp_id'];
+    $Name = $_POST['emp_name'];
+    $Email = $_POST['email'];
+    $Password = $_POST['password'];
+
+
+    // if ($_POST['password'] != $_POST['cpassword']) {
+      // fail!
+
+      // echo "<script>
+			// 	alert('Password invalid.');
+			// </script>"; 
+
+    // } else {
+      // success :(
+
+
+
+      $query = "insert into add_employee (emp_id,emp_name,email,password) values (" . $Empid . ",'" . $Name . "','" . $Email . "','" . $Password . "')";
+
+      mysqli_query($con, $query) or die(mysqli_error($con));
+
+
+      echo "<script>
+				alert('Registeration Completed, Please Login.');
+			</script>";
+      //echo "<script> location.href='index.php'; </script>";
+    // }
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- head.php contains css and title -->
-    <?php include './assets/head.php'; ?>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-      .btn {
-  background-color: none; /* Blue background */
-  border: none; /* Remove borders */
-  color: #fff; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
-  }
+  <!-- head.php contains css and title -->
+  <?php include './assets/head.php'; ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .btn {
+      background-color: none;
+      /* Blue background */
+      border: none;
+      /* Remove borders */
+      color: #fff;
+      /* White text */
+      padding: 12px 16px;
+      /* Some padding */
+      font-size: 16px;
+      /* Set a font size */
+      cursor: pointer;
+      /* Mouse pointer on hover */
+    }
   </style>
- </head>
+</head>
 
 <body>
   <div class="container-scroller">
-        <!-- navbar.php contains partial:partials/_navbar.html -->
-        <?php include './assets/navbar.php'; ?>
-    
+    <!-- navbar.php contains partial:partials/_navbar.html -->
+    <?php include './assets/navbar.php'; ?>
+
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:../../partials/_sidebar.html -->
@@ -30,30 +88,30 @@
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
-      
+
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <form class="forms-sample">
+                  <form class="forms-sample" method="post">
                     <div class="row">
                       <div class="col-xl-2 mb-3">
-                      <label for="Inputempid">Emp id</label>
-                      <input type="number" class="form-control" id="Inputempid" >
+                        <label for="Inputempid">Emp id</label>
+                        <input type="number" name="emp_id" class="form-control" id="Inputempid">
                       </div>
                       <div class="col-xl-2 mb-3">
-                      <label for="Inputempname">Emp Name</label>
-                      <input type="text" class="form-control" id="Inputempname">
+                        <label for="Inputempname">Emp Name</label>
+                        <input type="text" name="emp_name" class="form-control" id="Inputempname">
                       </div>
                       <div class="col-xl-2 mb-3">
-                      <label for="Inputempemail">Email</label>
-                      <input type="email" class="form-control" id="Inputempemail">
+                        <label for="Inputempemail">Email</label>
+                        <input type="email" name="email" class="form-control" id="Inputempemail">
                       </div>
                       <div class="col-xl-2 mb-3;">
-                      <label for="Inputpassword">Password</label>
-                      <input type="pasword" class="form-control" id="Inputpassword">
+                        <label for="Inputpassword">Password</label>
+                        <input type="password" name="password" class="form-control" id="Inputpassword">
                       </div>
-                      <div class="col-sm-3" style="margin-top: 2%">
-                      <button type="save" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px";>Save</button>
+                      <div class="col-sm-3" style="margin-top: 3%">
+                        <button type="submit" name="add" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Save</button>
                       </div>
                     </div>
                   </form>
@@ -71,14 +129,14 @@
                     <table class="table table-bordered">
                       <thead>
                         <tr style="background-color: rgb(151, 55, 0);">
-                          <th> 
+                          <th>
                             Sl.No
                           </th>
                           <th>
                             Emp ID
                           </th>
                           <th>
-                            Item Name
+                            Shop Name
                           </th>
                           <th>
                             Email
@@ -108,7 +166,7 @@
                             123
                           </td>
                           <td>
-                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                         <tr>
@@ -128,7 +186,7 @@
                             123
                           </td>
                           <td>
-                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                         <tr>
@@ -148,7 +206,7 @@
                             123
                           </td>
                           <td>
-                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                         <tr>
@@ -168,7 +226,7 @@
                             123
                           </td>
                           <td>
-                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                         <tr>
@@ -188,7 +246,7 @@
                             123
                           </td>
                           <td>
-                          <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
                         </tr>
                       </tbody>
@@ -203,11 +261,11 @@
       </div>
       <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends --> 
+    <!-- page-body-wrapper ends -->
   </div>
   <!-- container-scroller -->
- <!-- scripts.php contains all the script tags -->
- <?php include './assets/scripts.php'; ?>
+  <!-- scripts.php contains all the script tags -->
+  <?php include './assets/scripts.php'; ?>
 
 </body>
 
