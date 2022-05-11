@@ -64,16 +64,16 @@
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr style="background-color: rgb(151, 55, 0);">
-                                                    <th>
+                                                    <th style= "width:5%;">
                                                         Sl.No
                                                     </th>
-                                                    <th>
+                                                    <th style= "width:10%;">
                                                         Shop ID
                                                     </th>   
                                                     <th>
                                                         Shop Name
                                                     </th>
-                                                    <th>
+                                                    <th style= "width:15%;">
                                                         Location
                                                     </th>
                                                 </tr>

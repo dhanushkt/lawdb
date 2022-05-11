@@ -145,16 +145,16 @@
                                   <th>
                                     Item name
                                   </th>
-                                  <th>
+                                  <th style= "width:10%;">
                                     Price
                                   </th>
-                                  <th>
+                                  <th style= "width:10%;">
                                     Qty
                                   </th>
-                                  <th>
+                                  <th style= "width:10%;">
                                     Total
                                   </th>
-                                  <th></th>
+                                  <th style= "width:5%;"></th>
                                 </tr>
                               </thead>
                               <tbody>

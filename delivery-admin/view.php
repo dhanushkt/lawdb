@@ -50,22 +50,22 @@
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr style="background-color: rgb(151, 55, 0);">
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         #
                                                     </th>
                                                     <th>
                                                         Item Name
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Price
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Qty
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Total
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Status
                                                     </th>
                                                 </tr>
@@ -132,23 +132,11 @@
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td>
+                                                    <td colspan="2">
                                                         Total
                                                     </td>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>
+                                                    <td colspan="4">
                                                         800
-                                                    </td>
-                                                    <td>
-
                                                     </td>
                                                 </tr>
                                             </tbody>

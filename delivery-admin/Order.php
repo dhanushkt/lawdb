@@ -129,22 +129,22 @@ if (isset($_POST['add'])) {
                     <table class="table table-bordered">
                       <thead>
                         <tr style="background-color: rgb(151, 55, 0);">
-                          <th>
+                          <th style= "width:5%;">
                             Sl.No
                           </th>
-                          <th>
+                          <th style= "width:10%;">
                             Emp ID
                           </th>
                           <th>
-                            Shop Name
+                            Emp Name
                           </th>
-                          <th>
+                          <th style= "width:25%;">
                             Email
                           </th>
-                          <th>
+                          <th style= "width:10%;">
                             Password
                           </th>
-                          <th></th>
+                          <th style= "width:10%;"></th>
 
                         </tr>
                       </thead>

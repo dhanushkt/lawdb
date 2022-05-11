@@ -26,10 +26,10 @@
                                     <form class="forms-sample">
                                         <div class="row">
                                             <div class="col-xl-4 mb-4">
-                                                <input type="number" class="form-control" id="Inputid" placeholder = "Select Location">
+                                                <input type="text" class="form-control" id="myInput" placeholder = "Select Location">
                                             </div>
                                             <div class="col-xl-4 mb-4">
-                                            <input type="text" class="form-control" id="Inputname" placeholder = "Select Date">
+                                            <input type="date" class="form-control">
                                             </div>
                                             <div class="col-sm-4" style="margin-bottom: 2%" ;>
                                             <button type="search" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Search</button>
@@ -55,19 +55,19 @@
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr style="background-color: rgb(151, 55, 0);">
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Sl.No
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Shop ID
                                                     </th>
                                                     <th>
                                                          Shop Name
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                          Amount
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                          View/Edit
                                                     </th>
                                                 </tr>

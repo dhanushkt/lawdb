@@ -95,28 +95,28 @@
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr style="background-color: rgb(151, 55, 0);">
-                                                    <th>
+                                                    <th style= "width:10%;">
                                                         Sl.No
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Shop ID
                                                     </th>
                                                     <th>
                                                         Shop Name
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         Amount
                                                     </th>
-                                                    <th>
+                                                    <th style="width:10%;">
                                                         View/Edit
                                                     </th>
-                                                    <th></th>
+                                                    <th style="width:10%;"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="1">
+                                                        <input type="number" id="snumber" value="1" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH001
@@ -136,7 +136,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="2">
+                                                        <input type="number" id="snumber" value="2" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH002
@@ -154,7 +154,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="3">
+                                                        <input type="number" id="snumber" value="3" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH003
@@ -170,7 +170,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="4">
+                                                        <input type="number" id="snumber" value="4" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH004
@@ -188,7 +188,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="5">
+                                                        <input type="number" id="snumber" value="5" style="width:50%;">
 
                                                     </td>
                                                     <td>
@@ -207,7 +207,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="6">
+                                                        <input type="number" id="snumber" value="6" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH006
@@ -225,7 +225,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="7">
+                                                        <input type="number" id="snumber" value="7" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH001
@@ -243,7 +243,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="8">
+                                                        <input type="number" id="snumber" value="8" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH002
@@ -261,7 +261,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="number" id="snumber" value="9">
+                                                        <input type="number" id="snumber" value="9" style="width:50%;">
                                                     </td>
                                                     <td>
                                                         SH003
