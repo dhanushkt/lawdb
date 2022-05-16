@@ -131,7 +131,7 @@
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
                                                     <td>
-                                                        <button href="invoice.php">Print invoice</button>
+                                                        <a href="invoice.php"><button>Print invoice</button></a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -150,7 +150,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print Invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -166,7 +166,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a></td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -184,7 +184,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -203,7 +203,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -221,7 +221,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -239,7 +239,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -257,7 +257,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print Invoice</button></td>
+                                                    <td>  <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -273,7 +273,7 @@
                                                     <td>
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
-                                                    <td><button>Print invoice</button></td>
+                                                    <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
                                                 </tr>
                                             </tbody>
                                         </table>
