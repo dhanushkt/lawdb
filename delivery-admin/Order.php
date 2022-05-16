@@ -25,26 +25,26 @@ if (isset($_POST['add'])) {
 
 
     // if ($_POST['password'] != $_POST['cpassword']) {
-      // fail!
+    // fail!
 
-      // echo "<script>
-			// 	alert('Password invalid.');
-			// </script>"; 
+    // echo "<script>
+    // 	alert('Password invalid.');
+    // </script>"; 
 
     // } else {
-      // success :(
+    // success :(
 
 
 
-      $query = "insert into add_employee (emp_id,emp_name,email,password) values (" . $Empid . ",'" . $Name . "','" . $Email . "','" . $Password . "')";
+    $query = "insert into add_employee (emp_id,emp_name,email,password) values (" . $Empid . ",'" . $Name . "','" . $Email . "','" . $Password . "')";
 
-      mysqli_query($con, $query) or die(mysqli_error($con));
+    mysqli_query($con, $query) or die(mysqli_error($con));
 
 
-      echo "<script>
+    echo "<script>
 				alert('Registeration Completed, Please Login.');
 			</script>";
-      //echo "<script> location.href='index.php'; </script>";
+    //echo "<script> location.href='index.php'; </script>";
     // }
   }
 }
@@ -129,47 +129,59 @@ if (isset($_POST['add'])) {
                     <table class="table table-bordered">
                       <thead>
                         <tr style="background-color: rgb(151, 55, 0);">
-                          <th style= "width:5%;">
+                          <th style="width:5%;">
                             Sl.No
                           </th>
-                          <th style= "width:10%;">
+                          <th style="width:10%;">
                             Emp ID
                           </th>
                           <th>
                             Emp Name
                           </th>
-                          <th style= "width:25%;">
+                          <th style="width:25%;">
                             Email
                           </th>
-                          <th style= "width:10%;">
+                          <th style="width:10%;">
                             Password
                           </th>
-                          <th style= "width:10%;"></th>
+                          <th style="width:10%;"></th>
 
                         </tr>
                       </thead>
+
+                      <?php
+
+                      $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+
+                      ?>
+
                       <tbody>
-                        <tr>
-                          <td>
-                            1
-                          </td>
-                          <td>
-                            E001
-                          </td>
-                          <td>
-                            Ramesh
-                          </td>
-                          <td>
-                            ram@gmail.com
-                          </td>
-                          <td>
-                            123
-                          </td>
-                          <td>
-                            <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
-                          </td>
-                        </tr>
-                        <tr>
+                        <?php foreach ($get_data as $emp => $get_data) { ?>
+                          <tr>
+
+                            <td>
+                              <?php echo $emp['id']; ?>
+                            </td>
+                            <td>
+                              <?php echo $emp['emp_id']; ?>
+                            </td>
+                            <td>
+                              <?php echo $emp['emp_name']; ?>
+                            </td>
+                            <td>
+                              <?php echo $emp['email']; ?>
+                            </td>
+                            <td>
+                              <?php echo $emp['password']; ?>
+                            </td>
+                            <td>
+                              <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                            </td>
+                          </tr>
+                        <?php } ?>
+
+
+                        <!-- <tr>
                           <td>
                             2
                           </td>
@@ -248,7 +260,7 @@ if (isset($_POST['add'])) {
                           <td>
                             <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                           </td>
-                        </tr>
+                        </tr> -->
                       </tbody>
                     </table>
                   </div>
