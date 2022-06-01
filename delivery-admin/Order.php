@@ -1,8 +1,7 @@
 <?php
+include("./access/config.php");
 if (isset($_POST['add'])) {
   error_reporting(-1);
-  include("./access/config.php");
-
   $Email = $_POST['email'];
 
   $sql = "select * from add_employee where email='$Email'";
@@ -95,8 +94,26 @@ if (isset($_POST['add'])) {
                   <form class="forms-sample" method="post">
                     <div class="row">
                       <div class="col-xl-2 mb-3">
+                        <?php
+                        include("./access/config.php");
+                         $sql1 = "select emp_id from add_employee";
+                         $result1 = mysqli_query($con, $sql1);
+                         $count1 = mysqlI_num_rows($result1);
+                         if ($count1 > 0)
+                         {
+                          while($row = mysqli_fetch_array($result1))
+                          {
+                            $empid=$row[0];
+                          }
+                         }
+                         else
+                         {
+                          $empid='1000';
+                         }
+                         $empid++;
+                        ?>
                         <label for="Inputempid">Emp id</label>
-                        <input type="number" name="emp_id" class="form-control" id="Inputempid">
+                        <input type="number" name="emp_id" value="<?php echo $empid; ?>" readonly class="form-control" id="Inputempid">
                       </div>
                       <div class="col-xl-2 mb-3">
                         <label for="Inputempname">Emp Name</label>
@@ -148,38 +165,48 @@ if (isset($_POST['add'])) {
 
                         </tr>
                       </thead>
-
-                      <?php
-
-                      $get_data = mysqli_query($con, "SELECT * FROM add_employee");
-
-                      ?>
-
                       <tbody>
-                        <?php foreach ($get_data as $emp => $get_data) { ?>
-                          <tr>
+                      <?php
+                      error_reporting(-1);
+                      include("./access/config.php");
+                      $query1 = "SELECT * FROM add_employee";
 
-                            <td>
-                              <?php echo $emp['id']; ?>
-                            </td>
-                            <td>
-                              <?php echo $emp['emp_id']; ?>
-                            </td>
-                            <td>
-                              <?php echo $emp['emp_name']; ?>
-                            </td>
-                            <td>
-                              <?php echo $emp['email']; ?>
-                            </td>
-                            <td>
-                              <?php echo $emp['password']; ?>
-                            </td>
-                            <td>
-                              <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
-                            </td>
-                          </tr>
-                        <?php } ?>
+                      $result=mysqli_query($con, $query1);
+                     // $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+                      $count=mysqli_num_rows($result);
+                      if($count>0)
+                      {
+                        $sl=0;
+                        while($get_data = mysqli_fetch_array($result))
+                        {
+                          $sl+=1;
+                          ?>
+                           <tr>
 
+                              <td>
+                                <?php echo $sl; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['emp_id']; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['emp_name']; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['email']; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['password']; ?>
+                              </td>
+                              <td>
+                                <a href="?delid=<?php echo $get_data['id']; ?>"><button class="btn" style="color:red"><i class="fa fa-close"></i></button></a>
+                              </td>
+                            </tr>
+                          <?php
+                          
+                        }
+                      }
+                      ?>
 
                         <!-- <tr>
                           <td>
@@ -263,6 +290,20 @@ if (isset($_POST['add'])) {
                         </tr> -->
                       </tbody>
                     </table>
+                    <?php
+                    if(isset($_GET['delid']))
+                    {
+                      $delid=$_GET['delid'];
+                      $query3 = "delete FROM add_employee where id='$delid'";
+                      if(mysqli_query($con, $query3))
+                      {
+                        echo "<script>
+                        alert('Deleted');
+                      </script>";
+                    echo "<script> location.href='Order.php'; </script>";
+                      }
+                    }
+                    ?>
                   </div>
                 </div>
               </div>

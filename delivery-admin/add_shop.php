@@ -1,11 +1,12 @@
 <?php
+include("./access/config.php");
+
 if (isset($_POST['add'])) {
   error_reporting(-1);
-  include("./access/config.php");
 
-  $Email = $_POST['email'];
+  $shopname = $_POST['shop_name'];
 
-  $sql = "select * from shop_det where email='$Email'";
+  $sql = "select * from shop_det where shop_name='$shopname'";
   $result = mysqli_query($con, $sql);
   $count = mysqlI_num_rows($result);
 
@@ -13,7 +14,7 @@ if (isset($_POST['add'])) {
   if ($count > 0) {
 
     echo "<script>
-				alert('There is an existing account associated with this email.');
+				alert('There is an existing account associated with this shop name.');
 			</script>";
     //echo "<script> location.href='order.php'; </script>";
   } else {
@@ -37,7 +38,7 @@ if (isset($_POST['add'])) {
 
 
 
-      $query = "insert into shop_det (shop_id,shop_name,address,location,phone_no) values (" . $Shopid . ",'" . $Shopname . "','" . $Address . "','" . $Location . "','" . $Phonenumber . "')";
+      $query = "insert into shop_det (shop_id,shop_name,address,location,phone_no) values ('" . $Shopid . "','" . $Shopname . "','" . $Address . "','" . $Location . "','" . $Phonenumber . "')";
 
       mysqli_query($con, $query) or die(mysqli_error($con));
 
@@ -75,7 +76,7 @@ if (isset($_POST['add'])) {
                         <div class="col-12 grid-margin stretch-card">
                             <div class="card">
                                 <div class="card-body">
-                                    <form class="forms-sample">
+                                    <form class="forms-sample" method="POST">
                                         <div class="row">
                                             <div class="col-xl-2 mb-2">
                                             <label for="Inputid">Shop id</label>
@@ -98,7 +99,7 @@ if (isset($_POST['add'])) {
                                             <input type="text" class="form-control" name="phone_no" id="Inputnumber">
                                             </div>
                                             <div class="col-sm-2" style="margin-top: 2%" ;>
-                                            <button type="save" class="btn btn-primary" name="add" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Save</button>
+                                            <button type="submit" class="btn btn-primary" name="add" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Save</button>
                                             </div>
                                         </div>
                                     </form>
