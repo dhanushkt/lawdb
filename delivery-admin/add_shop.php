@@ -79,8 +79,25 @@ if (isset($_POST['add'])) {
                                     <form class="forms-sample" method="POST">
                                         <div class="row">
                                             <div class="col-xl-2 mb-2">
+                                            <?php
+                                            $sql1 = "select shop_id from shop_det";
+                                            $result1 = mysqli_query($con, $sql1);
+                                            $count1 = mysqlI_num_rows($result1);
+                                            if ($count1 > 0)
+                                            {
+                                            while($row = mysqli_fetch_array($result1))
+                                            {
+                                                $Shopid=$row[0];
+                                            }
+                                            }
+                                            else
+                                            {
+                                            $Shopid='1000';
+                                            }
+                                            $Shopid++;
+                                             ?>
                                             <label for="Inputid">Shop id</label>
-                                            <input type="text" class="form-control" name="shop_id" id="Inputid">
+                                            <input type="text" class="form-control" name="shop_id" value="<?php echo $Shopid; ?>" readonly class="form-control" id="Inputid">
                                             </div>
                                             <div class="col-xl-2 mb-2">
                                             <label for="Inputname">Shop Name</label>
@@ -138,6 +155,48 @@ if (isset($_POST['add'])) {
                                                 </tr>
                                             </thead>
                                             <tbody>
+                                            <?php
+                                            error_reporting(-1);
+                                            
+                                            $query1 = "SELECT * FROM shop_det";
+
+                                            $result=mysqli_query($con, $query1);
+                                            // $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+                                            $count=mysqli_num_rows($result);
+                                            if($count>0)
+                                            {
+                                                $sl=0;
+                                                while($get_data = mysqli_fetch_array($result))
+                                                {
+                                                $sl+=1;
+                                                ?>
+                                                    <tr>
+
+                                                        <td>
+                                                            <?php echo $sl; ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $get_data['shop_id']; ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $get_data['shop_name']; ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $get_data['address']; ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $get_data['location']; ?>
+                                                        </td>
+                                                        <td>
+                                                            <?php echo $get_data['phone_no']; ?>
+                                                        </td>
+                                                        </tr>
+                                                    <?php
+                                                    
+                                                    }
+                                                }
+                                                ?>
+                                                <!--
                                                 <tr>
                                                     <td>
                                                      1
@@ -223,7 +282,7 @@ if (isset($_POST['add'])) {
                                                         Perla
                                                     </td>
                                                     <td>9865356543</td>
-                                                </tr>
+                                                </tr>-->
                                             </tbody>
                                         </table>
                                     </div>

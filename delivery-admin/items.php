@@ -1,3 +1,54 @@
+<?php
+include("./access/config.php");
+
+if (isset($_POST['save'])) {
+  error_reporting(-1);
+  $itemname = $_POST['item_name'];
+
+  $sql = "select * from item where item_name='$itemname'";
+  $result = mysqli_query($con, $sql);
+  $count = mysqlI_num_rows($result);
+
+
+  if ($count > 0) {
+
+    echo "<script>
+				alert('There is an existing account associated with this email.');
+			</script>";
+    //echo "<script> location.href='order.php'; </script>";
+  } else {
+
+    $itemid = $_POST['item_id'];
+    $itemname = $_POST['item_name'];
+    $Price = $_POST['price'];
+    
+
+
+    // if ($_POST['password'] != $_POST['cpassword']) {
+    // fail!
+
+    // echo "<script>
+    // 	alert('Password invalid.');
+    // </script>"; 
+
+    // } else {
+    // success :(
+
+
+
+    $query = "insert into item (item_id,item_name,price) values (" . $itemid . ",'" . $itemname . "','" . $Price . "')";
+
+    mysqli_query($con, $query) or die(mysqli_error($con));
+
+
+    echo "<script>
+				alert('Registeration Completed, Please Login.');
+			</script>";
+    //echo "<script> location.href='index.php'; </script>";
+    // }
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,22 +75,39 @@
               <div class="col-12 grid-margin stretch-card">
                 <div class="card">
                   <div class="card-body">
-                    <form class="forms-sample">
+                    <form class="forms-sample" method="POST">
                       <div class="row">
                         <div class="col-xl-3 mb-3">
+                        <?php
+                         $sql1 = "select item_id from item";
+                         $result1 = mysqli_query($con, $sql1);
+                         $count1 = mysqlI_num_rows($result1);
+                         if ($count1 > 0)
+                         {
+                          while($row = mysqli_fetch_array($result1))
+                          {
+                            $itemid=$row[0];
+                          }
+                         }
+                         else
+                         {
+                          $itemid='1000';
+                         }
+                         $itemid++;
+                        ?>
                           <label for="Inputid">Item id</label>
-                          <input type="number" class="form-control" id="Inputid" >
+                          <input type="number" name="item_id" value="<?php echo $itemid; ?>" readonly class="form-control" id="Inputid" >
                         </div>
                         <div class="col-xl-3 mb-3">
                           <label for="Inputname">Item Name</label>
-                          <input type="text" class="form-control" id="Inputname">
+                          <input type="text" name="item_name" class="form-control" id="Inputname">
                         </div>
                         <div class="col-xl-3 mb-3">
                           <label for="Inputprice">Price</label>
-                          <input type="text" class="form-control" id="Inputprice">
+                          <input type="text" name="price" class="form-control" id="Inputprice">
                         </div>
                         <div class="col-sm-3" style="margin-top: 2%">
-                          <button type="submit" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px";>Save</button>
+                          <button type="submit" class="btn btn-primary" name="save" style="background-color: rgb(151, 55, 0); border-width: 0px";>Save</button>
                         </div>
                       </div>
                     </form>
@@ -71,7 +139,43 @@
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                        <?php
+                      error_reporting(-1);
+                      
+                      $query1 = "SELECT * FROM item";
+
+                      $result=mysqli_query($con, $query1);
+                     // $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+                      $count=mysqli_num_rows($result);
+                      if($count>0)
+                      {
+                        $sl=0;
+                        while($get_data = mysqli_fetch_array($result))
+                        {
+                          $sl+=1;
+                          ?>
+                           <tr>
+
+                              <td>
+                                <?php echo $sl; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['item_id']; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['item_name']; ?>
+                              </td>
+                              <td>
+                                <?php echo $get_data['price']; ?>
+                              </td>
+                            </tr>
+                          <?php
+                          
+                        }
+                      }
+                      ?>
+
+                       <!--   <tr>
                             <td>
                               1
                             </td>
@@ -140,7 +244,7 @@
                             <td>
                               15
                             </td>
-                          </tr>
+                          </tr>-->
                         </tbody>
                       </table>
                     </div>

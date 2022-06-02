@@ -1,5 +1,6 @@
 <?php
 include("./access/config.php");
+
 if (isset($_POST['add'])) {
   error_reporting(-1);
   $Email = $_POST['email'];
@@ -95,7 +96,6 @@ if (isset($_POST['add'])) {
                     <div class="row">
                       <div class="col-xl-2 mb-3">
                         <?php
-                        include("./access/config.php");
                          $sql1 = "select emp_id from add_employee";
                          $result1 = mysqli_query($con, $sql1);
                          $count1 = mysqlI_num_rows($result1);
@@ -168,7 +168,7 @@ if (isset($_POST['add'])) {
                       <tbody>
                       <?php
                       error_reporting(-1);
-                      include("./access/config.php");
+                      
                       $query1 = "SELECT * FROM add_employee";
 
                       $result=mysqli_query($con, $query1);
