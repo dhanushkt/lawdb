@@ -18,7 +18,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link" href="Order.php">
-                <span class="menu-title">Order Employees</span>
+                <span class="menu-title">Add Employees</span>
             </a>
         </li>
         <li class="nav-item">
@@ -37,8 +37,8 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="deliveryitems.php">
-                <span class="menu-title">delivered items</span>
+            <a class="nav-link" href="delivery.php">
+                <span class="menu-title">delivery status</span>
             </a>
         </li>
     </ul>

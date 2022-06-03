@@ -48,6 +48,18 @@ if (isset($_POST['add'])) {
     // }
   }
 }
+
+  if (isset($_GET['delid'])) {
+    $delid = $_GET['delid'];
+    $query3 = "delete FROM add_employee where id='$delid'";
+    if (mysqli_query($con, $query3)) {
+      echo "<script>
+                        alert('Deleted');
+                      </script>";
+      echo "<script> location.href='Order.php'; </script>";
+    }
+  }
+
 ?>
 
 <!DOCTYPE html>
@@ -290,20 +302,6 @@ if (isset($_POST['add'])) {
                         </tr> -->
                       </tbody>
                     </table>
-                    <?php
-                    if(isset($_GET['delid']))
-                    {
-                      $delid=$_GET['delid'];
-                      $query3 = "delete FROM add_employee where id='$delid'";
-                      if(mysqli_query($con, $query3))
-                      {
-                        echo "<script>
-                        alert('Deleted');
-                      </script>";
-                    echo "<script> location.href='Order.php'; </script>";
-                      }
-                    }
-                    ?>
                   </div>
                 </div>
               </div>
