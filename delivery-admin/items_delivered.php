@@ -44,7 +44,7 @@
                         <div class="col-lg-12 stretch-card" style="padding-top: 4%;">
                              <div class="card">
                                 <div class="card-body">
-                                    <div class="table-responsive pt-3">
+                                    <div class="pt-3">
                                     <div class="row">
                                             <div class="col-xl-12">
                                                 <div style="display:flex; align-items:right; justify-content:right;">

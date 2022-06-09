@@ -77,22 +77,22 @@
               <div class="card">
                 <div class="card-body">
                   <div class="row">
+
                     <div class="col-xl-3 mb-3">
-                      <input type="date" class="form-control">
+                      <input type="date" class="form-control" id="order_date">
                     </div>
                     <div class="col-xl-3 mb-3">
-                      <form class="forms-sample" autocomplete="off">
-                        <div class="autocomplete" style="width: 100%;">
-                          <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
-                        </div>
-                      </form>
+                      <div class="autocomplete" style="width: 100%;">
+                        <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
+                      </div>
                     </div>
                     <div class="col-xl-3 mb-3">
-                      <button type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
+                      <button onclick="add_order()" type="select" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>select</button>
                     </div>
+
                     <div class="col-xl-3 col-sm-12 col-12 mb-3">
-                      <p>Shop Name: xyz bakery</p>
-                      <p>Date: 19-04-2022</p>
+                      <p>Shop Name: <span id="disp_shop_name"></span></p>
+                      <p>Date: <span id="disp_date"></span></p>
                     </div>
                   </div>
                   <div class="col-xl-12 mb-12">
@@ -145,16 +145,16 @@
                                   <th>
                                     Item name
                                   </th>
-                                  <th style= "width:10%;">
+                                  <th style="width:10%;">
                                     Price
                                   </th>
-                                  <th style= "width:10%;">
+                                  <th style="width:10%;">
                                     Qty
                                   </th>
-                                  <th style= "width:10%;">
+                                  <th style="width:10%;">
                                     Total
                                   </th>
-                                  <th style= "width:5%;"></th>
+                                  <th style="width:5%;"></th>
                                 </tr>
                               </thead>
                               <tbody>
@@ -250,6 +250,59 @@
       <?php include './assets/scripts.php'; ?>
 
       <script>
+        //js code for viewing order info
+        function display_order(s,o){
+          document.getElementById("disp_shop_name").innerHTML=s;
+          document.getElementById("disp_date").innerHTML=o;
+        }
+        
+        // js code for adding order
+        function add_order() {
+          var orderdate = document.getElementById("order_date").value;
+          console.log(orderdate);
+          var shopname = document.getElementById("myInput").value;
+          console.log(shopname);
+
+          $.ajax({
+            url: './assets/add_order.php',
+            type: 'POST',
+            data: {
+              orderDate: orderdate,
+              shopName: shopname
+            },
+            success: function(data) {
+              var info = JSON.parse(data);
+              var shop_name = info.shop_name;
+              var order_date = info.order_date;
+              //alert("success");
+              display_order(shop_name, order_date);
+            }
+          });
+
+        }
+
+
+
+
+
+
+        let items_1;
+
+
+        $.ajax({
+          url: './assets/get_shop.php',
+          type: 'GET',
+          success: function(data) {
+            //console.log(data);
+            items_1 = JSON.parse(data);
+            console.log(items_1);
+            autocomplete(document.getElementById("myInput"), items_1);
+          }
+        });
+
+
+        //window.onload = get_shops;
+
         function autocomplete(inp, arr) {
           /*the autocomplete function takes two arguments,
           the text field element and an array of possible autocompleted values:*/
@@ -353,12 +406,21 @@
           });
         }
 
+
+
+
+
         /*An array containing all the country names in the world:*/
-        var items_1 = ["Malavika ice cream", "Badiyadka Bakery", "Ayyangar sweets", "AZ Bakery", "Sweet shop"];
+        //var items_1 = ["Badiyadka Bakery", "Ayyangar sweets", "AZ Bakery", "Sweet shop"];
         var items_2 = ["Cup ice cream small", "Chips", "Potato Chips", "Cone ice cream", "Cone ice cream Big"];
+        //var items_1 = items_temp;
+
+
+        console.log(items_1);
+
 
         /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
-        autocomplete(document.getElementById("myInput"), items_1);
+
         autocomplete(document.getElementById("myInput2"), items_2);
       </script>
 </body>
