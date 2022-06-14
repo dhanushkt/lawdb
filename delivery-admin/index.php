@@ -9,7 +9,8 @@ if(isset($_POST["login_btn"])){
   $fetch_row = mysqli_fetch_assoc($query_exec);
   if(mysqli_num_rows($query_exec) == 1){
     $id = $fetch_row['id'];
-    echo "<script> alert('logged in your user id is: $id'); </script>";
+    echo "<script> alert('logged in your user id is: $id');location.href='add_shop.php'</script>";
+
   } else {
     echo mysqli_error($con);
     echo "<script> alert('failed'); </script>";

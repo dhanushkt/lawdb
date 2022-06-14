@@ -175,7 +175,7 @@
                                     300
                                   </td>
                                   <td>
-                                    <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                                    <a href="?delid=<?php echo $get_data['id']; ?>"><button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                                   </td>
                                 </tr>
                                 <tr>
@@ -195,7 +195,7 @@
                                     250
                                   </td>
                                   <td>
-                                    <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                                    <a href="?delid=<?php echo $get_data['id']; ?>"><button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                                   </td>
                                 </tr>
                                 <tr>
@@ -215,7 +215,7 @@
                                     250
                                   </td>
                                   <td>
-                                    <button class="btn" style="color:red"><i class="fa fa-close"></i></button>
+                                    <a href="?delid=<?php echo $get_data['id']; ?>"><button class="btn" style="color:red"><i class="fa fa-close"></i></button>
                                   </td>
                                 </tr>
                                 <tr>
