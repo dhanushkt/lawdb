@@ -150,7 +150,7 @@
 					<li class="nav__item">
 						<a href="profile.php" class="nav__link">
 							<img src="assets/img/5.png" id="icon" style="height:25px;">
-							<span class="nav__name" style="color:white;">Profile</span>
+							<span class="nav__name" style="color:white;">More</span>
 						</a>
 					</li>
 				</ul>
@@ -205,7 +205,7 @@
 					</tr>
 
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2" style="text-align:center;">view</a></td>
+						
 						<td>1.</td>
 						<td>S001</td>
 						<td>Sweet Bakery</td>
@@ -215,7 +215,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+						
 						<td>2.</td>
 						<td>S002</td>
 						<td>Sweet Bakery</td>
@@ -225,7 +225,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+					
 						<td>3.</td>
 						<td>S003</td>
 						<td>Sweet Bakery</td>
@@ -235,7 +235,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+						
 						<td>4.</td>
 						<td>S004</td>
 						<td>Sweet Bakery</td>
@@ -245,7 +245,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+						
 						<td>5.</td>
 						<td>S005</td>
 						<td>Sweet Bakery</td>
@@ -256,7 +256,7 @@
 					</tr>
 
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+						
 						<td>6.</td>
 						<td>S006</td>
 						<td>Sweet Bakery</td>
@@ -266,7 +266,7 @@
 
 					</tr>
 					<tr style="box-shadow: 0px 0.5px 1px black;">
-						<td><a href="view.php" class="button2">view</a></td>
+						
 						<td>7.</td>
 						<td>S007</td>
 						<td>Sweet Bakery</td>

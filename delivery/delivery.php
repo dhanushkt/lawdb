@@ -141,7 +141,7 @@
 						<li class="nav__item">
                             <a href="profile.php" class="nav__link">
                                 <img src="assets/img/5.png" id="icon"  style="height:25px;">
-                                <span class="nav__name" style="color:white;">Profile</span>
+                                <span class="nav__name" style="color:white;">More</span>
                             </a>
                         </li>
                     </ul>

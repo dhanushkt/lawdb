@@ -86,6 +86,10 @@
                                 <div class="card-body">
                                     <div class="pt-3">
                                         <div class="row">
+                                        <div class="col-xl-12">
+                                                <div style="display:flex; justify-content:left;">
+                                                    <button>Export</button>
+                                                </div>
                                             <div class="col-xl-12">
                                                 <div style="display:flex; align-items:right; justify-content:right;">
                                                     <button>Freeze Data</button>
@@ -168,7 +172,7 @@
                                                     </td>
                                                     <td> <a href="invoice.php"><button>Print invoice</button></a></td>
                                                 </tr>
-                                                <tr>
+                                               <!-- <tr>
                                                     <td>
                                                         <input type="number" id="snumber" value="4" style="width:50%;">
                                                     </td>
@@ -274,7 +278,7 @@
                                                         <a href="view.php"><button>View</button></a>
                                                     </td>
                                                     <td> <a href="invoice.php"><button>Print invoice</button></a> </td>
-                                                </tr>
+                                                </tr>-->
                                             </tbody>
                                         </table>
                                         <button style="color:black; float:right; font-weight:900;">Confirm</button>
@@ -294,6 +298,50 @@
     <?php include './assets/scripts.php'; ?>
 
     <script>
+        function display_order(s,o){
+          document.getElementById("disp_shop_name").innerHTML=s;
+          document.getElementById("disp_date").innerHTML=o;
+        }
+        
+        // js code for adding order
+        function add_order() {
+          var orderdate = document.getElementById("order_date").value;
+          console.log(orderdate);
+          var shopname = document.getElementById("myInput").value;
+          console.log(shopname);
+
+          $.ajax({
+            url: './assets/add_order.php',
+            type: 'POST',
+            data: {
+              orderDate: orderdate,
+              shopName: shopname
+            },
+            success: function(data) {
+              var info = JSON.parse(data);
+              var shop_name = info.shop_name;
+              var order_date = info.order_date;
+              //alert("success");
+              display_order(shop_name, order_date);
+            }
+          });
+
+        }
+
+        let items_1;
+
+
+        $.ajax({
+          url: './assets/get_shop.php',
+          type: 'GET',
+          success: function(data) {
+            //console.log(data);
+            items_1 = JSON.parse(data);
+            console.log(items_1);
+            autocomplete(document.getElementById("myInput"), items_1);
+          }
+        });
+
         function autocomplete(inp, arr) {
             /*the autocomplete function takes two arguments,
             the text field element and an array of possible autocompleted values:*/
@@ -402,8 +450,9 @@
         //var items_2 = ["Cup ice cream small", "Chips", "Potato Chips", "Cone ice cream", "Cone ice cream Big"];
 
         /*initiate the autocomplete function on the "myInput" element, and pass along the countries array as possible autocomplete values:*/
+        console.log(items_1);
         autocomplete(document.getElementById("myInput"), items_1);
-        //autocomplete(document.getElementById("myInput2"), items_2);
+
     </script>
 
 </body>

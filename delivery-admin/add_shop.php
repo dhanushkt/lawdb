@@ -50,6 +50,16 @@ if (isset($_POST['add'])) {
     // }
   }
 }
+if (isset($_GET['delid'])) {
+    $delid = $_GET['delid'];
+    $query3 = "delete FROM shop_det where id='$delid'";
+    if (mysqli_query($con, $query3)) {
+      echo "<script>
+                        alert('Deleted');
+                      </script>";
+      echo "<script> location.href='add_shop.php'; </script>";
+    }
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -57,6 +67,23 @@ if (isset($_POST['add'])) {
 <head>
     <!-- head.php contains css and title -->
     <?php include './assets/head.php'; ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .btn {
+      background-color: none;
+      /* Blue background */
+      border: none;
+      /* Remove borders */
+      color: #fff;
+      /* White text */
+      padding: 12px 16px;
+      /* Some padding */
+      font-size: 16px;
+      /* Set a font size */
+      cursor: pointer;
+      /* Mouse pointer on hover */
+    }
+  </style>
 </head>
 
 <body>
@@ -152,6 +179,7 @@ if (isset($_POST['add'])) {
                                                     <th>
                                                         Phone Number
                                                     </th>
+                                                    <th style="width:10%;"></th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -189,6 +217,9 @@ if (isset($_POST['add'])) {
                                                         </td>
                                                         <td>
                                                             <?php echo $get_data['phone_no']; ?>
+                                                        </td>
+                                                        <td>
+                                                            <a href="?delid=<?php echo $get_data['id']; ?>"><button class="btn" style="color:red"><i class="fa fa-close"></i></button></a>
                                                         </td>
                                                         </tr>
                                                     <?php

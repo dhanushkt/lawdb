@@ -162,7 +162,7 @@
                                             </tbody>
                                         </table>
                                         <label>Note:</label>
-                                        <p> note note note note</p>
+                                        <p> You cannot edit or delete the Invoice Notes for Coupons via API, as there is no Update API available for Coupons.</p>
                                         <button style="color:black; float:right; font-weight:900;">Print</button>
                                     </div>
                                 </div>

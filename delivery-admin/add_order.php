@@ -1,3 +1,17 @@
+<?php
+include("./access/config.php");
+
+if (isset($_POST['add']))
+ {
+  error_reporting(-1);
+
+  $shopname = $_POST['shop_name'];
+
+  $sql = "select * from shop_det where shop_name='$shopname'";
+  $result = mysqli_query($con, $sql);
+  $count = mysqlI_num_rows($result);
+}
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -101,29 +115,75 @@
                   </div>
                   <div class="row">
                     <div class="col-xl-3 mb-3">
-                      <form class="forms-sample" autocomplete="off">
+                      <form class="forms-sample" autocomplete="off" method="Post" action="#">
                         <div class="autocomplete" style="width: 100%;">
-                          <input class="form-control" id="myInput2" type="text" name="myCountry" placeholder="Select Item">
+                          <select class="form-control" name="selectitem" placeholder="Select Item"  onchange="this.form.submit()">
+                          <option value="">Select Item</option>
+                          <?php
+                          include("./access/config.php");
+                          error_reporting(-1);
+                                            
+                                          $query1 = "SELECT * FROM item";
+
+                                          $result=mysqli_query($con, $query1);
+                                            // $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+                                          $count=mysqli_num_rows($result);
+                                          if($count>0)
+                                          {
+                                              $sl=0;
+                                              while($get_data = mysqli_fetch_array($result))
+                                              {
+                            ?>
+                           <option value="<?php echo $get_data['item_id']; ?>"><?php echo $get_data['item_name']; ?></option>
+                          <?php
+                          }
+                        }
+                        ?>
+                        </select>
                         </div>
                       </form>
                     </div>
                   </div>
+                  <?php 
+                  if(isset($_POST['selectitem']))
+                  {
+                    $selectitem=$_POST['selectitem'];
+                    $query2 = "SELECT * FROM item where item_id='".$selectitem."'";
+
+                    $result2=mysqli_query($con, $query2);
+                    // $get_data = mysqli_query($con, "SELECT * FROM add_employee");
+                    $count2=mysqli_num_rows($result2);
+                    if($count2>0)
+                    {
+                        $sl=0;
+                        while($get_data2 = mysqli_fetch_array($result2))
+                        {
+                          $item=$get_data2['item_name'];
+                          $price=$get_data2['price'];
+
+                        }
+                   
+                  ?>
                   <form class="forms-sample">
                     <div class="row">
                       <div class="col-xl-3 mb-3">
-                        <input type="text" class="form-control" id="Inputname" placeholder="Item Name">
+                        <input type="text" class="form-control" id="Inputname" value="<?php echo $item; ?>" readonly>
                       </div>
                       <div class="col-xl-3 mb-3">
-                        <input type="number" class="form-control" id="Inputprice" placeholder="Item Price">
+                        <input type="number" class="form-control" id="Inputprice" value="<?php echo $price; ?>" >
                       </div>
                       <div class="col-xl-3 mb-3">
                         <input type="number" class="form-control" id="Inputqty" placeholder="Item Qty">
                       </div>
                       <div class="col-xl-3 mb-3" style="margin-top: 0%">
-                        <button type="add" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Add</button>
+                        <button type="add" name="add" class="btn btn-primary" style="background-color: rgb(151, 55, 0); border-width: 0px" ;>Add</button>
                       </div>
                     </div>
                   </form>
+                  <?php
+                    }
+                  }
+                  ?>
                 </div>
               </div>
             </div>

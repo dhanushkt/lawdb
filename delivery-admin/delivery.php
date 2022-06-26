@@ -30,7 +30,7 @@
                                         <div class="col-xl-4 mb-4">
                                             <form class="forms-sample" autocomplete="off">
                                                 <div class="autocomplete" style="width: 100%;">
-                                                    <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select location">
+                                                    <input class="form-control" id="myInput" type="text" name="myCountry" placeholder="Select Shop">
                                                 </div>
                                             </form>
                                         </div> 
